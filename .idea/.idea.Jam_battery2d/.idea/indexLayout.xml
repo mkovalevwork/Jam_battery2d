@@ -3,6 +3,10 @@
   <component name="ContentModelUserStore">
     <attachedFolders />
     <explicitIncludes>
+<<<<<<< Updated upstream
+=======
+      <Path>Assets</Path>
+>>>>>>> Stashed changes
       <Path>Library/PackageCache/com.unity.2d.animation@6.0.4</Path>
       <Path>Library/PackageCache/com.unity.2d.common@5.0.0</Path>
       <Path>Library/PackageCache/com.unity.2d.path@5.0.0</Path>
