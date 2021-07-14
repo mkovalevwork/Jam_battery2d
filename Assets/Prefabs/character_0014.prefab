@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5846511799200960003}
   - component: {fileID: 5846511799200960002}
-  - component: {fileID: 5846511799200960124}
   - component: {fileID: 5846511799200960125}
   - component: {fileID: 5846511799200960126}
+  - component: {fileID: 5789293967926677004}
   m_Layer: 0
   m_Name: character_0014
   m_TagString: Untagged
@@ -75,33 +75,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: c7a7fef84ecb1114f9f2252ffa9525ee, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c46310a2b04ee774695555ac27f5b01b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.3333334, y: 1.3333334}
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5846511799200960124
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5846511799200960001}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37a4bee17ee2c494eb10b046e5d02762, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 5846511799200960003}
-  speedX: 0
-  speedY: 0
-  speed: 0.1
 --- !u!61 &5846511799200960125
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -119,14 +103,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.3333334, y: 1.3333334}
-    newSize: {x: 1.3333334, y: 1.3333334}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.3333334, y: 1.3333334}
+  m_Size: {x: 0.75, y: 0.75}
   m_EdgeRadius: 0
 --- !u!50 &5846511799200960126
 Rigidbody2D:
@@ -149,3 +133,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &5789293967926677004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5846511799200960001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8d5f048312528d49a8dee56246870a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 5846511799200960003}
+  speedX: 0
+  speedY: 0
+  speed: 0
