@@ -14,6 +14,9 @@ GameObject:
   - component: {fileID: 6197272375591519895}
   - component: {fileID: 6197272375591519888}
   - component: {fileID: 9206330135274831879}
+  - component: {fileID: 397752131}
+  - component: {fileID: 397752128}
+  - component: {fileID: 397752130}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -147,8 +150,62 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6197272375591519901}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 55dab0e227120d7439334ad3675b9bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &397752131
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6197272375591519901}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 29318140d29c0a04fa51f74041d9c5b5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &397752128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6197272375591519901}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3e441bca91612b439cde75c79cc47d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage:
+    baseValue: 0
+  armor:
+    baseValue: 0
+  maxHealth: 100
+--- !u!114 &397752130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6197272375591519901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c3298d88fcff44897dc54109776944, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 397752131}
+  attackPoint: {fileID: 6197272375591519889}
+  attackRange: 0.66
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 0
