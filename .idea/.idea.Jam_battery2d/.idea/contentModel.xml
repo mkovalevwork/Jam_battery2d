@@ -7,7 +7,6 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.Player.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="ActiveController.cs" t="Include" />
         <e p="delete_this_script.cs" t="Include" />
         <e p="dubug.cs" t="Include" />
         <e p="Fmod Sound" t="Include">
@@ -54,7 +53,6 @@
             <e p="Workspace.xml" t="Include" />
           </e>
         </e>
-        <e p="Movement.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="FMOD" t="Include">
             <e p="addons" t="Include">
@@ -181,7 +179,11 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="ActiveController.cs" t="Include" />
           <e p="EnemyController.cs" t="Include" />
+          <e p="Movement.cs" t="Include" />
+          <e p="SkillController.cs" t="Include" />
+          <e p="Timer.cs" t="Include" />
         </e>
         <e p="Staff" t="Include">
           <e p="NavMeshPlus-master" t="Include">
