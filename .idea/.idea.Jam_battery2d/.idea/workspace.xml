@@ -12,6 +12,7 @@
       <option value="$PROJECT_DIR$/Assets/ActiveController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SkillController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Timer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CombatSystem/PlayerCombat.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vICOx32APKEJS8yrl50HHqISqL" />
@@ -59,6 +60,7 @@
       <workItem from="1626240217346" duration="825000" />
       <workItem from="1626337007949" duration="1411000" />
       <workItem from="1626363102508" duration="4869000" />
+      <workItem from="1626370290328" duration="910000" />
     </task>
     <servers />
   </component>
