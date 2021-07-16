@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.AI;
 
-[RequireComponent(typeof(CharacterStats))]
+/*[RequireComponent(typeof(CharacterStats))]*/
 public class EnemyController : MonoBehaviour
 {
     public float distanceToPlayer;
@@ -40,14 +40,9 @@ public class EnemyController : MonoBehaviour
 
             if (distanceToPlayer <= agent.stoppingDistance)
             {
-                /*CharacterCombat playerCombat = player.GetComponent<CharacterCombat>();
-                if (playerCombat != null)
-                {
-                    playerCombat.Attack(player.GetComponent<PlayerStats>());
-                    Debug.Log(myStats.currentHealth);
-                }*/
+                
                 //attack the player
-                //facetarget? brackeys making ai
+                
                 
             }
         }

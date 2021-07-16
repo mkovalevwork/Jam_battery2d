@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 397752131}
   - component: {fileID: 397752128}
   - component: {fileID: 397752130}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -205,7 +205,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 397752131}
   attackPoint: {fileID: 6197272375591519889}
-  attackRange: 0.66
   enemyLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
+  attackRange: 0.66
+  attackDamage: 40

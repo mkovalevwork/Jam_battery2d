@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    // функция получения урона, смерти
+    // Заготовки для анимаций получения урона и смерти
+
     public Animator animator;
 
     public int maxHealth = 100;
