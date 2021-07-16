@@ -4,57 +4,10 @@
     <e p="C:\Users\dmx\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
     <e p="C:\Users\dmx\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Jam_battery2d.-1589896924.00" t="ExcludeRecursive" />
     <e p="C:\Users\dmx\Jam_battery2d" t="IncludeRecursive">
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.Player.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="ActiveController.cs" t="Include" />
-        <e p="delete_this_script.cs" t="Include" />
-        <e p="dubug.cs" t="Include" />
-        <e p="Fmod Sound" t="Include">
-          <e p="Metadata" t="Include">
-            <e p="Asset" t="Include">
-              <e p="{2491ec09-ea32-4b1a-94ba-a464d689fd65}.xml" t="Include" />
-            </e>
-            <e p="Bank" t="Include">
-              <e p="{309dddfb-fe45-4054-805f-b7834cf2a918}.xml" t="Include" />
-            </e>
-            <e p="BankFolder" t="Include">
-              <e p="{6d05a33b-2af7-4c28-ab7e-5a094f7b7d1c}.xml" t="Include" />
-            </e>
-            <e p="EffectPresetFolder" t="Include">
-              <e p="{41253ad0-f5a5-42cd-a800-640f369e0eb7}.xml" t="Include" />
-            </e>
-            <e p="EncodingSetting" t="Include">
-              <e p="{58eb2e1f-5f7a-46de-bd61-4c3aa7ec7642}.xml" t="Include" />
-            </e>
-            <e p="EventFolder" t="Include">
-              <e p="{105c0cf0-2ec7-4327-9b68-14598dbd6604}.xml" t="Include" />
-            </e>
-            <e p="Master.xml" t="Include" />
-            <e p="Mixer.xml" t="Include" />
-            <e p="ParameterPresetFolder" t="Include">
-              <e p="{7e2b2896-c0c5-45d4-aa99-ae4e67537446}.xml" t="Include" />
-            </e>
-            <e p="Platform" t="Include">
-              <e p="{7cb0007d-717c-46e8-b1ba-9dd3b06e8cc8}.xml" t="Include" />
-            </e>
-            <e p="ProfilerFolder" t="Include">
-              <e p="{36ed7b94-12c7-4acb-aaef-8257cd69a6ea}.xml" t="Include" />
-            </e>
-            <e p="Return" t="Include">
-              <e p="{d3ee12c7-78f1-40fb-ac75-13ecd178bc25}.xml" t="Include" />
-            </e>
-            <e p="SandboxFolder" t="Include">
-              <e p="{2fd65b2e-d6a9-4f92-a413-748326f01179}.xml" t="Include" />
-            </e>
-            <e p="SnapshotGroup" t="Include">
-              <e p="{e6a3e09e-b4f1-478b-bd3e-64fd6ad12942}.xml" t="Include" />
-            </e>
-            <e p="Tags.xml" t="Include" />
-            <e p="Workspace.xml" t="Include" />
-          </e>
-        </e>
-        <e p="Movement.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="FMOD" t="Include">
             <e p="addons" t="Include">
@@ -179,36 +132,97 @@
               </e>
             </e>
           </e>
+          <e p="Fmod Sound" t="Include">
+            <e p="Metadata" t="Include">
+              <e p="Asset" t="Include">
+                <e p="{2491ec09-ea32-4b1a-94ba-a464d689fd65}.xml" t="Include" />
+              </e>
+              <e p="Bank" t="Include">
+                <e p="{309dddfb-fe45-4054-805f-b7834cf2a918}.xml" t="Include" />
+              </e>
+              <e p="BankFolder" t="Include">
+                <e p="{6d05a33b-2af7-4c28-ab7e-5a094f7b7d1c}.xml" t="Include" />
+              </e>
+              <e p="EffectPresetFolder" t="Include">
+                <e p="{41253ad0-f5a5-42cd-a800-640f369e0eb7}.xml" t="Include" />
+              </e>
+              <e p="EncodingSetting" t="Include">
+                <e p="{58eb2e1f-5f7a-46de-bd61-4c3aa7ec7642}.xml" t="Include" />
+              </e>
+              <e p="EventFolder" t="Include">
+                <e p="{105c0cf0-2ec7-4327-9b68-14598dbd6604}.xml" t="Include" />
+              </e>
+              <e p="Master.xml" t="Include" />
+              <e p="Mixer.xml" t="Include" />
+              <e p="ParameterPresetFolder" t="Include">
+                <e p="{7e2b2896-c0c5-45d4-aa99-ae4e67537446}.xml" t="Include" />
+              </e>
+              <e p="Platform" t="Include">
+                <e p="{7cb0007d-717c-46e8-b1ba-9dd3b06e8cc8}.xml" t="Include" />
+              </e>
+              <e p="ProfilerFolder" t="Include">
+                <e p="{36ed7b94-12c7-4acb-aaef-8257cd69a6ea}.xml" t="Include" />
+              </e>
+              <e p="Return" t="Include">
+                <e p="{d3ee12c7-78f1-40fb-ac75-13ecd178bc25}.xml" t="Include" />
+              </e>
+              <e p="SandboxFolder" t="Include">
+                <e p="{2fd65b2e-d6a9-4f92-a413-748326f01179}.xml" t="Include" />
+              </e>
+              <e p="SnapshotGroup" t="Include">
+                <e p="{e6a3e09e-b4f1-478b-bd3e-64fd6ad12942}.xml" t="Include" />
+              </e>
+              <e p="Tags.xml" t="Include" />
+              <e p="Workspace.xml" t="Include" />
+            </e>
+          </e>
+          <e p="Staff" t="Include">
+            <e p="NavMeshPlus-master" t="Include">
+              <e p="NavMeshComponents" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="NavMeshAssetManager.cs" t="Include" />
+                  <e p="NavMeshAssetManager2d.cs" t="Include" />
+                  <e p="NavMeshComponentsEditor.asmdef" t="Include" />
+                  <e p="NavMeshComponentsGUIUtility.cs" t="Include" />
+                  <e p="NavMeshLinkEditor.cs" t="Include" />
+                  <e p="NavMeshModifierEditor.cs" t="Include" />
+                  <e p="NavMeshModifierVolumeEditor.cs" t="Include" />
+                  <e p="NavMeshSurfaceEditor.cs" t="Include" />
+                  <e p="NavMeshSurfaceEditor2d.cs" t="Include" />
+                </e>
+                <e p="Scripts" t="Include">
+                  <e p="NavMeshBuilder2d.cs" t="Include" />
+                  <e p="NavMeshComponents.asmdef" t="Include" />
+                  <e p="NavMeshLink.cs" t="Include" />
+                  <e p="NavMeshModifier.cs" t="Include" />
+                  <e p="NavMeshModifierVolume.cs" t="Include" />
+                  <e p="NavMeshSurface.cs" t="Include" />
+                  <e p="NavMeshSurface2d.cs" t="Include" />
+                </e>
+              </e>
+              <e p="package.json" t="Include" />
+            </e>
+          </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="EnemyController.cs" t="Include" />
-        </e>
-        <e p="Staff" t="Include">
-          <e p="NavMeshPlus-master" t="Include">
-            <e p="NavMeshComponents" t="Include">
-              <e p="Editor" t="Include">
-                <e p="NavMeshAssetManager.cs" t="Include" />
-                <e p="NavMeshAssetManager2d.cs" t="Include" />
-                <e p="NavMeshComponentsEditor.asmdef" t="Include" />
-                <e p="NavMeshComponentsGUIUtility.cs" t="Include" />
-                <e p="NavMeshLinkEditor.cs" t="Include" />
-                <e p="NavMeshModifierEditor.cs" t="Include" />
-                <e p="NavMeshModifierVolumeEditor.cs" t="Include" />
-                <e p="NavMeshSurfaceEditor.cs" t="Include" />
-                <e p="NavMeshSurfaceEditor2d.cs" t="Include" />
-              </e>
-              <e p="Scripts" t="Include">
-                <e p="NavMeshBuilder2d.cs" t="Include" />
-                <e p="NavMeshComponents.asmdef" t="Include" />
-                <e p="NavMeshLink.cs" t="Include" />
-                <e p="NavMeshModifier.cs" t="Include" />
-                <e p="NavMeshModifierVolume.cs" t="Include" />
-                <e p="NavMeshSurface.cs" t="Include" />
-                <e p="NavMeshSurface2d.cs" t="Include" />
-              </e>
-            </e>
-            <e p="package.json" t="Include" />
+          <e p="ActiveController.cs" t="Include" />
+          <e p="CombatSystem" t="Include">
+            <e p="Enemy.cs" t="Include" />
+            <e p="EnemyCombat.cs" t="Include" />
+            <e p="PlayerCombat.cs" t="Include" />
           </e>
+          <e p="Movement.cs" t="Include" />
+          <e p="PlayerManager.cs" t="Include" />
+          <e p="SkillController.cs" t="Include" />
+          <e p="Stats" t="Include">
+            <e p="CharacterCombat.cs" t="Include" />
+            <e p="CharacterStats.cs" t="Include" />
+            <e p="EnemyController.cs" t="Include" />
+            <e p="EnemyStats.cs" t="Include" />
+            <e p="PlayerStats.cs" t="Include" />
+            <e p="Stat.cs" t="Include" />
+          </e>
+          <e p="Timer.cs" t="Include" />
         </e>
       </e>
       <e p="FMODUnity.csproj" t="IncludeRecursive" />
