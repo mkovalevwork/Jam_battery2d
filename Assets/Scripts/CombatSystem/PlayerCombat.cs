@@ -11,6 +11,14 @@ public class PlayerCombat : MonoBehaviour
 
     public float attackRange;
     public int attackDamage = 40;
+    public int health;
+    [SerializeField] private int currentHealth;
+
+
+    void Start()
+    {
+        currentHealth = health;
+    }
 
     void Update()
     {
@@ -33,8 +41,25 @@ public class PlayerCombat : MonoBehaviour
         // Damage them
         foreach (var enemy in hitEnemies)
         {
-            enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
+            enemy.GetComponent<GlobalEnemy>().TakeDamage(attackDamage);
+            
         }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+
+        if (currentHealth <= 0)
+        {
+            Invoke(nameof(DestroyPlayer), 0.5f);
+            //death Animation to add/sound///////////////////////////
+        }
+    }
+
+    void DestroyPlayer()
+    {
+        Destroy(gameObject);
     }
 
     private void OnDrawGizmosSelected()

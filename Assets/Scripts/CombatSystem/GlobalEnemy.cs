@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -17,7 +15,7 @@ public class GlobalEnemy : MonoBehaviour
 
     //STATS
     public int health;
-    private int currentHealth;
+    [SerializeField]private int currentHealth;
     public int damage;
     public float timeBetweenAttacks;
     public float sightRange;
@@ -83,6 +81,7 @@ public class GlobalEnemy : MonoBehaviour
         {
             //Attack code here
             Debug.Log("attack done");
+            player.GetComponent<PlayerCombat>().TakeDamage(damage);
             //attack Animation to add/sound///////////////////////////
             //End of attack code
 
