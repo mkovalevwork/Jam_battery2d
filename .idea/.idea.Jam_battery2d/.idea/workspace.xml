@@ -8,6 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FireController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene Management/SceneManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene Management/VolumeManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene Management/JsonManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -25,6 +26,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Scene Management/JsonManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Info/settings.json" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Scene Management/VolumeManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CombatSystem/GlobalEnemy.cs" />
+      <option value="$PROJECT_DIR$/Assets/ExtinguishingController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/FireController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vICOx32APKEJS8yrl50HHqISqL" />
@@ -76,6 +80,7 @@
       <workItem from="1626427957613" duration="3123000" />
       <workItem from="1626431921821" duration="386000" />
       <workItem from="1626432404639" duration="1951000" />
+      <workItem from="1626434946024" duration="4730000" />
     </task>
     <servers />
   </component>

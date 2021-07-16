@@ -209,12 +209,14 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="CombatSystem" t="Include">
-            <e p="Enemy.cs" t="Include" />
             <e p="EnemyCombat.cs" t="Include" />
+            <e p="GlobalEnemy.cs" t="Include" />
             <e p="PlayerCombat.cs" t="Include" />
           </e>
+          <e p="FireController.cs" t="Include" />
           <e p="Player" t="Include">
             <e p="ActiveController.cs" t="Include" />
+            <e p="ExtinguishingController.cs" t="Include" />
             <e p="Movement.cs" t="Include" />
             <e p="PlayerManager.cs" t="Include" />
             <e p="SkillController.cs" t="Include" />
@@ -229,12 +231,15 @@
             <e p="VolumeManager.cs" t="Include" />
           </e>
           <e p="Stats" t="Include">
-            <e p="CharacterCombat.cs" t="Include" />
             <e p="CharacterStats.cs" t="Include" />
-            <e p="EnemyController.cs" t="Include" />
-            <e p="EnemyStats.cs" t="Include" />
             <e p="PlayerStats.cs" t="Include" />
             <e p="Stat.cs" t="Include" />
+          </e>
+          <e p="Trash" t="Include">
+            <e p="CharacterCombat.cs" t="Include" />
+            <e p="Enemy.cs" t="Include" />
+            <e p="EnemyController.cs" t="Include" />
+            <e p="EnemyStats.cs" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">
