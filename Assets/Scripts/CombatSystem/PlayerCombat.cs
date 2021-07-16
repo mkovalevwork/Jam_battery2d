@@ -18,7 +18,7 @@ public class PlayerCombat : MonoBehaviour
 
 
     //test sound
-    public AudioSource hitSound;
+    //public AudioSource hitSound;
 
     void Start()
     {
@@ -50,10 +50,13 @@ public class PlayerCombat : MonoBehaviour
             foreach (var enemy in hitEnemies)
             {
                 enemy.GetComponent<GlobalEnemy>().TakeDamage(attackDamage);
-
             }
-            hitSound.Play();
+
+            // Play attack sound.
+            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/shock_attack");
+
             alreadyAttacked = true;
+
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
         }
         

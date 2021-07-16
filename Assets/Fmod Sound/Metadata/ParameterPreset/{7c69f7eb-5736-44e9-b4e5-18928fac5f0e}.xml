@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{7c69f7eb-5736-44e9-b4e5-18928fac5f0e}">
+		<property name="name">
+			<value>extinguisher_charge</value>
+		</property>
+		<relationship name="folder">
+			<destination>{7e2b2896-c0c5-45d4-aa99-ae4e67537446}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{bf5ad3cb-1c97-4464-9801-7cd35da8abf2}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{bf5ad3cb-1c97-4464-9801-7cd35da8abf2}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
