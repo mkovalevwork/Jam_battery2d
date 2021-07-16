@@ -7,12 +7,24 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene Management/SceneManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene Management/VolumeManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene Management/JsonManager.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/ActiveController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SkillController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Timer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CombatSystem/PlayerCombat.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Scene Management/SceneManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Scene Management/Exit.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Scene Management/PauseManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Scene Management/SettingsInfo.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Scene Management/JsonManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Info/settings.json" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Scene Management/VolumeManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vICOx32APKEJS8yrl50HHqISqL" />
@@ -61,6 +73,9 @@
       <workItem from="1626337007949" duration="1411000" />
       <workItem from="1626363102508" duration="4869000" />
       <workItem from="1626370290328" duration="910000" />
+      <workItem from="1626427957613" duration="3123000" />
+      <workItem from="1626431921821" duration="386000" />
+      <workItem from="1626432404639" duration="1951000" />
     </task>
     <servers />
   </component>
