@@ -12,8 +12,13 @@ public class PlayerCombat : MonoBehaviour
     public float attackRange;
     public int attackDamage = 40;
     public int health;
+    public float timeBetweenAttacks;
     [SerializeField] private int currentHealth;
+    bool alreadyAttacked;
 
+
+    //test sound
+    public AudioSource hitSound;
 
     void Start()
     {
@@ -38,12 +43,26 @@ public class PlayerCombat : MonoBehaviour
         // detect enemys in range of attack
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
-        // Damage them
-        foreach (var enemy in hitEnemies)
+
+        if (!alreadyAttacked)
         {
-            enemy.GetComponent<GlobalEnemy>().TakeDamage(attackDamage);
-            
+            // Damage them
+            foreach (var enemy in hitEnemies)
+            {
+                enemy.GetComponent<GlobalEnemy>().TakeDamage(attackDamage);
+
+            }
+            hitSound.Play();
+            alreadyAttacked = true;
+            Invoke(nameof(ResetAttack), timeBetweenAttacks);
         }
+        
+    }
+
+    void ResetAttack()
+    {
+        //timer for attacks
+        alreadyAttacked = false;
     }
 
     public void TakeDamage(int damage)
