@@ -20,6 +20,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-8429479353551085274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/extinguisher_shot/extinguisher_charge
+  m_EditorClassIdentifier: 
+  Name: extinguisher_charge
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-7344326942585816925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62,7 +82,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 700
+  Length: 843
 --- !u!114 &-6017505432429232065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,7 +125,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 180
+  Length: 647
 --- !u!114 &-5022599013527075707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,11 +164,11 @@ MonoBehaviour:
   Path: Assets/Fmod Sound/Fmod Sound Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637621382041856899
+  lastModified: 637621570727699753
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1574
+    Value: 1622
   Exists: 1
 --- !u!114 &-4556362575106332874
 MonoBehaviour:
@@ -213,6 +233,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-4169217718498553066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/extinguisher_shot/extinguisher_charge
+  m_EditorClassIdentifier: 
+  Name: extinguisher_charge
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &-4075610950662751635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -236,6 +276,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 340
+--- !u!114 &-3868537848771475693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/extinguisher_shot/extinguisher_charge
+  m_EditorClassIdentifier: 
+  Name: extinguisher_charge
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &-3844338999626500460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -279,6 +339,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-3161525669005740380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/extinguisher_shot/extinguisher_charge
+  m_EditorClassIdentifier: 
+  Name: extinguisher_charge
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &-2852773632447455568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -357,7 +437,7 @@ MonoBehaviour:
   Path: Assets/Fmod Sound/Fmod Sound Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637621382041831897
+  lastModified: 637621570727669742
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -404,10 +484,30 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 4635369840767467172}
+  - {fileID: 7013658713387862795}
   MinDistance: 1
   MaxDistance: 20
   Length: 4209
+--- !u!114 &-1135700657450380568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/extinguisher_shot/extinguisher_charge
+  m_EditorClassIdentifier: 
+  Name: extinguisher_charge
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &-934199814936669121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -482,12 +582,13 @@ MonoBehaviour:
   - {fileID: -5067180177645551376}
   - {fileID: -4360043059315298171}
   - {fileID: 7137580872653696920}
+  - {fileID: 1732241841276607949}
   EditorParameters: []
   MasterBanks:
   - {fileID: -1721394749303124467}
   StringsBanks:
   - {fileID: -4718392588317824788}
-  stringsBankWriteTime: 637621382041856899
+  stringsBankWriteTime: 637621570727699753
   cacheVersion: 6
 --- !u!114 &1576820652824517346
 MonoBehaviour:
@@ -552,6 +653,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &1732241841276607949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player/player_damage
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player/player_damage
+  guid: 05e8c7d9eecc5e42aafb2fef81d529db
+  Banks:
+  - {fileID: -1721394749303124467}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 190
 --- !u!114 &1745841988482896210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -658,8 +782,28 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 380
+  Length: 507
 --- !u!114 &4635369840767467172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/extinguisher_shot/extinguisher_charge
+  m_EditorClassIdentifier: 
+  Name: extinguisher_charge
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &4820476926705795920
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -807,6 +951,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &7013658713387862795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/extinguisher_shot/extinguisher_charge
+  m_EditorClassIdentifier: 
+  Name: extinguisher_charge
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &7137580872653696920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -829,7 +993,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 27480
+  Length: 107129
 --- !u!114 &7277692137156291852
 MonoBehaviour:
   m_ObjectHideFlags: 0

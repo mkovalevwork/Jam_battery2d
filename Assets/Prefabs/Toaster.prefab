@@ -128,10 +128,10 @@ MonoBehaviour:
   timeBetweenAttacks: 4
   sightRange: 3.59
   attackRange: 2.67
-  detectSoundPath: 
-  damageSoundPath: 
-  attackSoundPath: 
-  deathSoundPath: 
+  detectSoundPath: event:/SFX/Enemies/Toaster/toaster_detect
+  damageSoundPath: event:/SFX/Enemies/Toaster/toaster_damage
+  attackSoundPath: event:/SFX/Enemies/Toaster/toaster_attack
+  deathSoundPath: event:/SFX/Enemies/Toaster/toaster_death
   projectile: {fileID: 0}
   playerInSightRange: 0
   playerInAttackRange: 0
