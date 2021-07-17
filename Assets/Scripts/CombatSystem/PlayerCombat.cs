@@ -32,10 +32,7 @@ public class PlayerCombat : MonoBehaviour
         {
             Attack();
         }
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            ReCharging();
-        }
+        
     }
 
     
@@ -101,6 +98,13 @@ public class PlayerCombat : MonoBehaviour
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Charger"))
+        {
+            ReCharging();
+        }
+    }
     void ReCharging()
     {
         currentHealth = health;

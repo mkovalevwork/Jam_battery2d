@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 5485859601046345886}
   - component: {fileID: 4011125851688056728}
   - component: {fileID: 5485859601046345885}
-  m_Layer: 0
+  - component: {fileID: 1063961918}
+  m_Layer: 6
   m_Name: Toaster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,8 +95,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 5485859601046345875}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 3.5
-  m_Speed: 3.5
+  m_Radius: 0.21
+  m_Speed: 1
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -103,8 +104,8 @@ NavMeshAgent:
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
-  m_Height: 7
-  m_BaseOffset: 3.5
+  m_Height: 4.25
+  m_BaseOffset: 1.66
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!114 &5485859601046345885
@@ -121,11 +122,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canEnemy: 0
   toasterEnemy: 1
-  health: 100
+  health: 50
   currentHealth: 0
   damage: 10
-  timeBetweenAttacks: 10
-  sightRange: 2.92
+  timeBetweenAttacks: 4
+  sightRange: 3.59
   attackRange: 2.67
   detectSoundPath: 
   damageSoundPath: 
@@ -137,3 +138,29 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 128
+--- !u!61 &1063961918
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5485859601046345875}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0079398155, y: 0.49248904}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 21, y: 21}
+    newSize: {x: 7, y: 7}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 1
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.206376, y: 4.236048}
+  m_EdgeRadius: 0
