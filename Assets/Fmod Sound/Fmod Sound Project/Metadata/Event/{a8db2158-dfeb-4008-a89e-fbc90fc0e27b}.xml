@@ -234,6 +234,7 @@
 	<object class="MixerBusEffectChain" id="{dee8574c-9309-463a-b572-0d54ca7ea803}">
 		<relationship name="effects">
 			<destination>{c7829f18-2b8b-4be7-ac14-d3d3fa62024b}</destination>
+			<destination>{24f2f7c9-f22e-4e69-964d-12c1609bbb06}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d88cbeb9-63ff-43d7-9a30-d892803f991c}" />
@@ -319,6 +320,14 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{c7829f18-2b8b-4be7-ac14-d3d3fa62024b}" />
+	<object class="PitchShifterEffect" id="{24f2f7c9-f22e-4e69-964d-12c1609bbb06}">
+		<property name="pitch">
+			<value>1.5</value>
+		</property>
+		<property name="overlap">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{4ae60479-e955-414b-bceb-e4d0f85df076}">
 		<property name="position">
 			<value>0</value>
