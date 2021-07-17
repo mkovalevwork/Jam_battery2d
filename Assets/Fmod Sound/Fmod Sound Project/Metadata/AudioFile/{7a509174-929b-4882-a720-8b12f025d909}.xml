@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{7a509174-929b-4882-a720-8b12f025d909}">
+		<property name="assetPath">
+			<value>electric_shock.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.61791383219954643</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2491ec09-ea32-4b1a-94ba-a464d689fd65}</destination>
+		</relationship>
+	</object>
+</objects>

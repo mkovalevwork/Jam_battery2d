@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{280b474f-4dd5-4e17-9811-0ecd34634893}">
+		<property name="assetPath">
+			<value>toaster_dead_nails_drop_2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.6787528344671202</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2491ec09-ea32-4b1a-94ba-a464d689fd65}</destination>
+		</relationship>
+	</object>
+</objects>
