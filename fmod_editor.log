@@ -12,10 +12,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [LOG] AsyncManager::init                       : manager 00000193D41CCBB8 isAsync 0 updatePeriod 0.02
 =======
 [LOG] AsyncManager::init                       : manager 000001A8E2E93E28 isAsync 0 updatePeriod 0.02
 >>>>>>> parent of 8ae0d40 (Merge branch 'main' of https://github.com/mkovalevwork/Jam_battery2d into main)
+=======
+[LOG] AsyncManager::init                       : manager 00000193D41CCBB8 isAsync 0 updatePeriod 0.02
+>>>>>>> 8cf3d5a3eff1486359680e61bbe06e767e42b3ee
 =======
 [LOG] AsyncManager::init                       : manager 00000193D41CCBB8 isAsync 0 updatePeriod 0.02
 >>>>>>> 8cf3d5a3eff1486359680e61bbe06e767e42b3ee
@@ -30,6 +34,7 @@
 [LOG] Manager::init                            : done.
 [LOG] Manager::readBank                        : fileversion = 132, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 132, compatVersion = 132 (oldest = 44, newest = 135)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -296,6 +301,11 @@
 [LOG] SoundI::release                          :  (000001A83957E7A8)
 [LOG] SoundI::release                          :     battery_footstep_metallic_click_l_3 (000001A82A7F9B48)
 >>>>>>> parent of 8ae0d40 (Merge branch 'main' of https://github.com/mkovalevwork/Jam_battery2d into main)
+=======
+[LOG] SoundI::release                          : Jam_Battery_boss_theme_v0.2 (loop) (00000193AE52A4B8)
+[LOG] SoundI::release                          :     Jam_Battery_boss_theme_v0.2 (loop) (000001931E7ED118)
+[LOG] SoundI::release                          :     Jam_Battery_boss_theme_v0.2 (loop) (00000193AE528B68)
+>>>>>>> 8cf3d5a3eff1486359680e61bbe06e767e42b3ee
 =======
 [LOG] SoundI::release                          : Jam_Battery_boss_theme_v0.2 (loop) (00000193AE52A4B8)
 [LOG] SoundI::release                          :     Jam_Battery_boss_theme_v0.2 (loop) (000001931E7ED118)
