@@ -90,7 +90,7 @@ public class PlayerCombat : MonoBehaviour
         {
             return;
         }
-
+        Gizmos.color = Color.cyan;
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 }

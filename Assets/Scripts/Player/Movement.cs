@@ -9,9 +9,18 @@ public class Movement : MonoBehaviour
     private bool isSoundPlayed;
     public float soundDelay;
 
-    
+    public Animator animator;
+    private float horizontalInput;
+
+    private void Start()
+    {
+        horizontalInput = Input.GetAxis("Horizontal");
+    }
     void FixedUpdate()
     {
+        
+        
+
         if (Input.GetKey(KeyCode.W)) speedX = speed; 
         if (Input.GetKey(KeyCode.S)) speedX = -speed; 
         
@@ -42,9 +51,11 @@ public class Movement : MonoBehaviour
                 Invoke(nameof(ResetAttack), soundDelay);
             }
         }
-        {
+        animator.SetFloat("Horizontal", vel.x);
+        animator.SetFloat("Vertical", vel.y);
+        animator.SetFloat("Magnitude", vel.magnitude);
 
-        }
+
     }
 
     // Воспроизведение звука шагов.
