@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6197272375591519888}
   - component: {fileID: 397752131}
   - component: {fileID: 397752130}
+  - component: {fileID: 397752124}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -182,5 +183,22 @@ MonoBehaviour:
   attackRange: 0.87
   attackDamage: 30
   health: 100
-  timeBetweenAttacks: 0
+  timeBetweenAttacks: 0.5
   currentHealth: 0
+--- !u!114 &397752124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6197272375591519901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a4059bded5c104aa475f55748d530c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  range: 2
+  canActive:
+    m_PersistentCalls:
+      m_Calls: []
+  animation: 0
