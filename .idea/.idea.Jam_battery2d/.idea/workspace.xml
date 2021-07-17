@@ -29,7 +29,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/CombatSystem/GlobalEnemy.cs" />
       <option value="$PROJECT_DIR$/Assets/ExtinguishingController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/FireController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/VolumeController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vICOx32APKEJS8yrl50HHqISqL" />
@@ -81,8 +80,7 @@
       <workItem from="1626427957613" duration="3123000" />
       <workItem from="1626431921821" duration="386000" />
       <workItem from="1626432404639" duration="1951000" />
-      <workItem from="1626434946024" duration="4892000" />
-      <workItem from="1626500275214" duration="129000" />
+      <workItem from="1626434946024" duration="4730000" />
     </task>
     <servers />
   </component>
