@@ -9,9 +9,22 @@ public class Movement : MonoBehaviour
     private bool isSoundPlayed;
     public float soundDelay;
 
-    
+    public Animator animator;
+    private float horizontalInput;
+
+    private void Start()
+    {
+        horizontalInput = Input.GetAxis("Horizontal");
+    }
     void FixedUpdate()
     {
+        animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
+        if (horizontalInput == 0)
+        {
+            animator.SetFloat("Vertical", Input.GetAxis("Vertical"));
+        }
+        
+
         if (Input.GetKey(KeyCode.W)) speedX = speed; 
         if (Input.GetKey(KeyCode.S)) speedX = -speed; 
         
