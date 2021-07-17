@@ -5,7 +5,7 @@
 			<value>player_footsteps</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{7cfcb54c-99c0-4cb5-b74c-b2f22c6c6245}</destination>
@@ -147,6 +147,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{a1f05546-cd0f-4f14-a6df-f215bfb3d033}">
+		<property name="volume">
+			<value>-15.5</value>
+		</property>
 		<property name="name">
 			<value>battery_footstep_dirt</value>
 		</property>
@@ -163,7 +166,6 @@
 	<object class="MixerBusEffectChain" id="{6ecff59f-f94c-4f7a-84ca-bc8339ccd014}">
 		<relationship name="effects">
 			<destination>{a619a316-fe66-494c-9353-100cd5c35a56}</destination>
-			<destination>{eb3ab301-44a7-463c-a5c4-b7be6d24894c}</destination>
 			<destination>{f2590a95-ddf8-46c9-b76c-1033020f00a9}</destination>
 		</relationship>
 	</object>
@@ -243,7 +245,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{187dbe98-9def-4b8f-ab7f-db0336ebc8de}" />
 	<object class="MixerBusFader" id="{a619a316-fe66-494c-9353-100cd5c35a56}" />
-	<object class="SpatialiserEffect" id="{eb3ab301-44a7-463c-a5c4-b7be6d24894c}" />
 	<object class="ThreeEQEffect" id="{f2590a95-ddf8-46c9-b76c-1033020f00a9}">
 		<property name="highGain">
 			<value>-3.5</value>

@@ -21,6 +21,12 @@ public class GlobalEnemy : MonoBehaviour
     public float sightRange;
     public float attackRange;
 
+    //Path of sound event in Fmod
+    public string detectSoundPath;
+    public string damageSoundPath;
+    public string attackSoundPath;
+    public string deathSoundPath;
+
 
     //States
     private NavMeshAgent agent;
@@ -83,6 +89,10 @@ public class GlobalEnemy : MonoBehaviour
             Debug.Log("attack done");
             player.GetComponent<PlayerCombat>().TakeDamage(damage);
             //attack Animation to add/sound///////////////////////////
+
+            // Play attack sound
+            PlaySound(attackSoundPath);
+
             //End of attack code
 
             alreadyAttacked = true;
@@ -101,16 +111,23 @@ public class GlobalEnemy : MonoBehaviour
     {
         currentHealth -= damage;
 
+        if (currentHealth > 0)
+        {
+            PlaySound(damageSoundPath);
+        }
+
         if (currentHealth <= 0)
         {
             Invoke(nameof(DestroyEnemy), 0.5f);
             //death Animation to add/sound///////////////////////////
+            PlaySound(deathSoundPath);
         }
     }
 
     void DestroyEnemy()
     {
         Destroy(gameObject);
+
     }
 
 
@@ -122,5 +139,10 @@ public class GlobalEnemy : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, sightRange);
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position, attackRange);
+    }
+
+    void PlaySound(string path)
+    {
+        FMODUnity.RuntimeManager.PlayOneShot(path, GetComponent<Transform>().position);
     }
 }
