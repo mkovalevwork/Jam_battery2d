@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.AI;
 
-public class GlobalEnemy : MonoBehaviour
+public class CanEnemy : MonoBehaviour
 {
     //Enemy STATS
     //Enemy MOVEMENT

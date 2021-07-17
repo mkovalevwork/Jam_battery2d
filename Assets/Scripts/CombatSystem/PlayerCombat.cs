@@ -50,7 +50,7 @@ public class PlayerCombat : MonoBehaviour
             // Damage them
             foreach (var enemy in hitEnemies)
             {
-                enemy.GetComponent<GlobalEnemy>().TakeDamage(attackDamage);
+                enemy.GetComponent<CanEnemy>().TakeDamage(attackDamage);
             }
 
             // Play attack sound.
