@@ -8,7 +8,11 @@
 [LOG] SystemI::init                            : Output requires a sample rate of 44100Hz, resampling will occur.
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
+<<<<<<< HEAD
 [LOG] AsyncManager::init                       : manager 00000193D41CCBB8 isAsync 0 updatePeriod 0.02
+=======
+[LOG] AsyncManager::init                       : manager 000002202D0A9858 isAsync 0 updatePeriod 0.02
+>>>>>>> c87c708bee1b4c369dd33b9e7fd407e525d77b19
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -17,9 +21,67 @@
 [LOG] Manager::init                            : done.
 [LOG] Manager::readBank                        : fileversion = 132, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 132, compatVersion = 132 (oldest = 44, newest = 135)
+<<<<<<< HEAD
 [LOG] SoundI::release                          : Jam_Battery_boss_theme_v0.2 (loop) (00000193AE52A4B8)
 [LOG] SoundI::release                          :     Jam_Battery_boss_theme_v0.2 (loop) (000001931E7ED118)
 [LOG] SoundI::release                          :     Jam_Battery_boss_theme_v0.2 (loop) (00000193AE528B68)
+=======
+[LOG] SoundI::release                          : Jam_Battery_boss_theme_v0.2 (loop) (000002202C4C6DB8)
+[LOG] SoundI::release                          :     Jam_Battery_boss_theme_v0.2 (loop) (000002204F4B4BE8)
+[LOG] SoundI::release                          :     Jam_Battery_boss_theme_v0.2 (loop) (000002202C4C7E98)
+[LOG] SoundI::release                          :  (0000021FA212C778)
+[LOG] SoundI::release                          :     battery_footstep_dirt_1 (000002204F4AE0A8)
+[LOG] SoundI::release                          :  (0000021FA6CE67B8)
+[LOG] SoundI::release                          :     battery_footstep_dirt_2 (000002204F4AD888)
+[LOG] SoundI::release                          :  (0000021FA6CE7BD8)
+[LOG] SoundI::release                          :     battery_footstep_dirt_3 (000002204F4AD3A8)
+[LOG] SoundI::release                          :  (0000021FA6CE64D8)
+[LOG] SoundI::release                          :     battery_footstep_dirt_4 (000002204F4AFF88)
+[LOG] SoundI::release                          :  (000002202C6E1948)
+[LOG] SoundI::release                          :     battery_footstep_dirt_5 (000002204F4B0128)
+[LOG] SoundI::release                          :  (000002202C6E17D8)
+[LOG] SoundI::release                          :     battery_footstep_dirt_6 (000002204F4B2B68)
+[LOG] SoundI::release                          :  (0000021FA6CE6EE8)
+[LOG] SoundI::release                          :     battery_footstep_metallic_click_r_1 (000002204F4ADA28)
+[LOG] SoundI::release                          :  (0000021FA212B358)
+[LOG] SoundI::release                          :     battery_footstep_metallic_click_r_2 (000002204F4B0948)
+[LOG] SoundI::release                          :  (0000021FA212CD38)
+[LOG] SoundI::release                          :     battery_footstep_metallic_click_r_3 (000002204F4AE248)
+[LOG] SoundI::release                          :  (0000021FA212C8E8)
+[LOG] SoundI::release                          :     battery_footstep_metallic_click_l_1 (000002204F4B07A8)
+[LOG] SoundI::release                          :  (0000021FA6CE6928)
+[LOG] SoundI::release                          :     battery_footstep_metallic_click_l_2 (000002204F4B0468)
+[LOG] SoundI::release                          :  (0000021FA212C608)
+[LOG] SoundI::release                          :     battery_footstep_metallic_click_l_3 (000002204F4ADF08)
+[LOG] SoundI::release                          :  (0000021FA0042048)
+[LOG] SoundI::release                          :     extinguisher_empty_impact (000002204F4AF768)
+[LOG] SoundI::release                          :  (0000021FA6CE61F8)
+[LOG] SoundI::release                          :     extinguisher_empty_tail_1 (000002204F4B29C8)
+[LOG] SoundI::release                          :  (000002202C6E1AB8)
+[LOG] SoundI::release                          :     extinguisher_empty_tail_2 (000002204F4B0608)
+[LOG] SoundI::release                          :  (0000021FA6CE6368)
+[LOG] SoundI::release                          :     extinguisher_empty_out (000002204F4B3528)
+[LOG] SoundI::release                          :  (0000021FA212BD68)
+[LOG] SoundI::release                          :     extinguisher_start_impact_1 (000002204F4ADD68)
+[LOG] SoundI::release                          :  (0000021FA6CE8FF8)
+[LOG] SoundI::release                          :     extinguisher_start_impact_3 (000002204F4B2D08)
+[LOG] SoundI::release                          :  (0000021FA0041BF8)
+[LOG] SoundI::release                          :     extinguisher_start_impact_5 (000002204F4AE3E8)
+[LOG] SoundI::release                          :  (0000021FA6CE8D18)
+[LOG] SoundI::release                          :     extinguisher_start_impact_7 (000002204F4AEDA8)
+[LOG] SoundI::release                          :  (0000021FA212BA88)
+[LOG] SoundI::release                          :     extinguisher_dash_impact_low (000002204F4ADBC8)
+[LOG] SoundI::release                          :  (0000021FA6CE6A98)
+[LOG] SoundI::release                          :     extinguisher_start_impact_2 (000002204F4AD208)
+[LOG] SoundI::release                          :  (000002202C6DE588)
+[LOG] SoundI::release                          :     extinguisher_start_impact_4 (000002204F4B2688)
+[LOG] SoundI::release                          :  (0000021FA6CE9CE8)
+[LOG] SoundI::release                          :     extinguisher_start_impact_6 (000002204F4AF428)
+[LOG] SoundI::release                          :  (0000021FA00421B8)
+[LOG] SoundI::release                          :     extinguisher_dash_tail (000002204F4B0AE8)
+[LOG] SoundI::release                          :  (000002202C6E1668)
+[LOG] SoundI::release                          :     electric_shock (000002204F4AFC48)
+>>>>>>> c87c708bee1b4c369dd33b9e7fd407e525d77b19
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
@@ -30,3 +92,20 @@
 [LOG] Thread::callback                         : FMOD mixer thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
 [LOG] SystemI::close                           : Closed.
+<<<<<<< HEAD
+=======
+[LOG] Manager::readBank                        : fileversion = 132, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 132, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 132, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Manager::readBank                        : fileversion = 132, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 132, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 132, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 132, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 132, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Manager::readBank                        : fileversion = 132, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 132, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 132, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 132, compatVersion = 132 (oldest = 44, newest = 135)
+>>>>>>> c87c708bee1b4c369dd33b9e7fd407e525d77b19
