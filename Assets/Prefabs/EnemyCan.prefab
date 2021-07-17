@@ -188,11 +188,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e372862c82fbe514d8770288efd925b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 60
+  health: 30
   currentHealth: 0
-  damage: 5
+  damage: 15
   timeBetweenAttacks: 1.5
-  sightRange: 2.18
+  sightRange: 4.09
   attackRange: 0.63
   detectSoundPath: event:/SFX/Enemies/Can/can_detect
   damageSoundPath: event:/SFX/Enemies/Can/can_damage

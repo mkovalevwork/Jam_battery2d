@@ -32,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 6197272375591519901}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.22, y: 0.59, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -141,7 +141,7 @@ MonoBehaviour:
   player: {fileID: 6197272375591519889}
   speedX: 1
   speedY: 1
-  speed: 0.1
+  speed: 0.08
   soundDelay: 0.25
   animator: {fileID: 397752131}
 --- !u!95 &397752131
@@ -180,10 +180,11 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 64
-  attackRange: 0.87
-  attackDamage: 30
+  attackRange: 2.02
+  attackDamage: 15
+  attackCoast: 5
   health: 100
-  timeBetweenAttacks: 0.5
+  timeBetweenAttacks: 2
   currentHealth: 0
 --- !u!114 &397752124
 MonoBehaviour:
