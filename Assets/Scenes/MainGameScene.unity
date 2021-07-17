@@ -6140,14 +6140,20 @@ Transform:
   m_Father: {fileID: 117220642}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!81 &1138114417
-AudioListener:
+--- !u!114 &1138114417
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1138114415}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
+  ListenerNumber: -1
 --- !u!20 &1138114418
 Camera:
   m_ObjectHideFlags: 0
@@ -6282,7 +6288,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1567645456}
   - component: {fileID: 1567645455}
-  - component: {fileID: 1567645454}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -6290,14 +6295,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1567645454
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1567645453}
-  m_Enabled: 1
 --- !u!20 &1567645455
 Camera:
   m_ObjectHideFlags: 0
@@ -18493,30 +18490,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4011125851688056728, guid: 3effa111f827c5248b806e5e173b6aae, type: 3}
-      propertyPath: m_Speed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4011125851688056728, guid: 3effa111f827c5248b806e5e173b6aae, type: 3}
-      propertyPath: m_Height
-      value: 4.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 4011125851688056728, guid: 3effa111f827c5248b806e5e173b6aae, type: 3}
-      propertyPath: m_Radius
-      value: 0.21
-      objectReference: {fileID: 0}
-    - target: {fileID: 4011125851688056728, guid: 3effa111f827c5248b806e5e173b6aae, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4011125851688056728, guid: 3effa111f827c5248b806e5e173b6aae, type: 3}
-      propertyPath: m_BaseOffset
-      value: 1.66
-      objectReference: {fileID: 0}
-    - target: {fileID: 4011125851688056728, guid: 3effa111f827c5248b806e5e173b6aae, type: 3}
-      propertyPath: m_AutoBraking
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5485859601046345875, guid: 3effa111f827c5248b806e5e173b6aae, type: 3}
       propertyPath: m_Name
       value: Toaster
@@ -18564,18 +18537,6 @@ PrefabInstance:
     - target: {fileID: 5485859601046345884, guid: 3effa111f827c5248b806e5e173b6aae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5485859601046345885, guid: 3effa111f827c5248b806e5e173b6aae, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5485859601046345885, guid: 3effa111f827c5248b806e5e173b6aae, type: 3}
-      propertyPath: sightRange
-      value: 3.59
-      objectReference: {fileID: 0}
-    - target: {fileID: 5485859601046345885, guid: 3effa111f827c5248b806e5e173b6aae, type: 3}
-      propertyPath: timeBetweenAttacks
-      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3effa111f827c5248b806e5e173b6aae, type: 3}
