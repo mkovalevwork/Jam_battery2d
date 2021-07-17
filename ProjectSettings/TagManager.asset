@@ -7,6 +7,7 @@ TagManager:
   - active
   - Enemy
   - Fire
+  - Charger
   layers:
   - Default
   - TransparentFX
