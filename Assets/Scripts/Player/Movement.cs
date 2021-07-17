@@ -18,11 +18,7 @@ public class Movement : MonoBehaviour
     }
     void FixedUpdate()
     {
-        animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
-        if (horizontalInput == 0)
-        {
-            animator.SetFloat("Vertical", Input.GetAxis("Vertical"));
-        }
+        
         
 
         if (Input.GetKey(KeyCode.W)) speedX = speed; 
@@ -55,9 +51,11 @@ public class Movement : MonoBehaviour
                 Invoke(nameof(ResetAttack), soundDelay);
             }
         }
-        {
+        animator.SetFloat("Horizontal", vel.x);
+        animator.SetFloat("Vertical", vel.y);
+        animator.SetFloat("Magnitude", vel.magnitude);
 
-        }
+
     }
 
     // Воспроизведение звука шагов.
