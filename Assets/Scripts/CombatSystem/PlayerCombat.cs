@@ -32,6 +32,10 @@ public class PlayerCombat : MonoBehaviour
         {
             Attack();
         }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            ReCharging();
+        }
     }
 
     
@@ -95,5 +99,10 @@ public class PlayerCombat : MonoBehaviour
         }
         Gizmos.color = Color.cyan;
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
+
+    void ReCharging()
+    {
+        currentHealth = health;
     }
 }

@@ -13,6 +13,11 @@ public class CanEnemy : MonoBehaviour
     //blue - SightRange Visualize
     //green - AttackRange Visualize
 
+    //CHOSE ENEMY TYPE
+
+    [SerializeField] private bool canEnemy;
+    [SerializeField] private bool toasterEnemy;
+
     //STATS
     public int health;
     [SerializeField]private int currentHealth;
@@ -32,6 +37,7 @@ public class CanEnemy : MonoBehaviour
     private NavMeshAgent agent;
     //attack    
     bool alreadyAttacked;
+    public GameObject projectile;
 
 
     //Utility
@@ -62,9 +68,24 @@ public class CanEnemy : MonoBehaviour
         playerInSightRange = Physics2D.OverlapCircle(transform.position, sightRange, playerLayer);
         playerInAttackRange = Physics2D.OverlapCircle(transform.position, attackRange, playerLayer);
 
-        //Choose state
-        if (playerInSightRange && !playerInAttackRange) ChasePlayer();
-        if (playerInAttackRange && playerInSightRange) AttackPlayer();
+        if (canEnemy)
+        {
+            //Choose state
+            if (playerInSightRange && !playerInAttackRange) ChasePlayer();
+            if (playerInAttackRange && playerInSightRange) AttackPlayer();
+        }
+        if (toasterEnemy)
+        {
+            if (playerInSightRange && !playerInAttackRange) ChasePlayer();
+            if (playerInAttackRange && playerInSightRange) AttackPlayer();
+            if (alreadyAttacked)
+            {
+                Patrolling();
+            }
+        }
+        
+        
+        
     }
 
 
@@ -83,7 +104,7 @@ public class CanEnemy : MonoBehaviour
         //Turn on if needed
         //transform.LookAt(player.transform);
 
-        if (!alreadyAttacked)
+        if (!alreadyAttacked && canEnemy)
         {
             //Attack code here
             Debug.Log("attack done");
@@ -98,13 +119,60 @@ public class CanEnemy : MonoBehaviour
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
         }
-        
+        if (!alreadyAttacked && toasterEnemy)
+        {
+            //Attack code here
+            Debug.Log("attack done");
+            player.GetComponent<PlayerCombat>().TakeDamage(damage);
+            //attack Animation to add/sound///////////////////////////
+
+            // Play attack sound
+            PlaySound(attackSoundPath);
+
+            //End of attack code
+
+            alreadyAttacked = true;
+            Invoke(nameof(ResetAttack), timeBetweenAttacks);
+            
+        }
+
     }
 
     void ResetAttack()
     {
         //timer for attacks
         alreadyAttacked = false;
+        agent.SetDestination(transform.position);
+        Debug.Log("TIMERDONE");
+        
+
+    }
+
+    void Patrolling()
+    {
+        if (Vector2.Distance(transform.position,player.transform.position) <= attackRange)
+        {
+            
+            
+            var heading = player.transform.position - transform.position;
+            var distance = heading.magnitude;
+            var direction = heading / distance;
+            agent.SetDestination(transform.position - direction);
+            //Debug.Log("run away");
+
+
+        }
+        if (Vector2.Distance(transform.position, player.transform.position) > attackRange)
+        {
+            Debug.Log(" go to player");
+            
+            var heading = player.transform.position - transform.position;
+            var distance = heading.magnitude;
+            var direction = heading / distance;
+            agent.SetDestination(transform.position + direction);
+            //Debug.Log(direction);
+            //go to player
+        }
     }
 
     public void TakeDamage(int damage)
