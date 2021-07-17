@@ -40,6 +40,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-6284892382158870982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Toaster/toaster_death
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Enemies/Toaster/toaster_death
+  guid: 71456d3ff156694f9c0138350de3c40c
+  Banks:
+  - {fileID: -1721394749303124467}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-6017505432429232065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,6 +83,73 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-5067180177645551376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player/shock_attack
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player/shock_attack
+  guid: ccca91e619c5ab458d2d0cb44b161cc4
+  Banks:
+  - {fileID: -1721394749303124467}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 180
+--- !u!114 &-5022599013527075707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player/Extinguisher/extinguisher_dash
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player/Extinguisher/extinguisher_dash
+  guid: c7bdc98ba51bd141a04367c1d4d90102
+  Banks:
+  - {fileID: -1721394749303124467}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 402
+--- !u!114 &-4718392588317824788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Fmod Sound/Fmod Sound Project/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637621293093280837
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1574
+  Exists: 1
 --- !u!114 &-4556362575106332874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80,6 +170,29 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-4360043059315298171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Can/can_attack
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Enemies/Can/can_attack
+  guid: cf7a441ec3c0354aa616076fb6e0070f
+  Banks:
+  - {fileID: -1721394749303124467}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 545
 --- !u!114 &-4333684962497115633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123,6 +236,72 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 340
+--- !u!114 &-3844338999626500460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player/player_footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player/player_footsteps
+  guid: 5f2b0c5ad24e2645b8c5d55b95857f6e
+  Banks:
+  - {fileID: -1721394749303124467}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 33
+--- !u!114 &-3715797702484420887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/extinguisher_shot/extinguisher_charge
+  m_EditorClassIdentifier: 
+  Name: extinguisher_charge
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-2852773632447455568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player/Extinguisher/extinguisher_empty
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player/Extinguisher/extinguisher_empty
+  guid: 1fb642b971328c45967bb3e1566d46e4
+  Banks:
+  - {fileID: -1721394749303124467}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 207
 --- !u!114 &-2197345208849637807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -163,6 +342,25 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
+--- !u!114 &-1721394749303124467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Fmod Sound/Fmod Sound Project/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637621293093255831
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-1567519205785901846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,6 +384,30 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 27480
+--- !u!114 &-1433979965789252474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player/Extinguisher/extinguisher_shot
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player/Extinguisher/extinguisher_shot
+  guid: a3537149a95b014a87180707612bf395
+  Banks:
+  - {fileID: -1721394749303124467}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -3715797702484420887}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4209
 --- !u!114 &-934199814936669121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -243,20 +465,29 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 2444162040109098754}
-  - {fileID: 5783393767716380985}
+  - {fileID: -4718392588317824788}
+  - {fileID: -1721394749303124467}
   EditorEvents:
-  - {fileID: 1589157477377932515}
-  - {fileID: -517363610805543511}
-  - {fileID: 7277692137156291852}
-  - {fileID: -4075610950662751635}
-  - {fileID: -1567519205785901846}
+  - {fileID: -2852773632447455568}
+  - {fileID: 3155240936130430783}
+  - {fileID: 7798084049185430317}
+  - {fileID: 5859687614257805868}
+  - {fileID: 6791015899675324332}
+  - {fileID: -3844338999626500460}
+  - {fileID: -6284892382158870982}
+  - {fileID: -1433979965789252474}
+  - {fileID: 2558942397346541236}
+  - {fileID: 5359835312973252763}
+  - {fileID: -5022599013527075707}
+  - {fileID: -5067180177645551376}
+  - {fileID: -4360043059315298171}
+  - {fileID: 7137580872653696920}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 5783393767716380985}
+  - {fileID: -1721394749303124467}
   StringsBanks:
-  - {fileID: 2444162040109098754}
-  stringsBankWriteTime: 637620799931529434
+  - {fileID: -4718392588317824788}
+  stringsBankWriteTime: 637621293093280837
   cacheVersion: 6
 --- !u!114 &1576820652824517346
 MonoBehaviour:
@@ -362,6 +593,75 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1108
   Exists: 1
+--- !u!114 &2558942397346541236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Toaster/toaster_detect
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Enemies/Toaster/toaster_detect
+  guid: a3f08563be5d614c8f4faeacda7ec94f
+  Banks:
+  - {fileID: -1721394749303124467}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3155240936130430783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Toaster/toaster_damage
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Enemies/Toaster/toaster_damage
+  guid: 2778434ee880f145bd5c91fae0663dc6
+  Banks:
+  - {fileID: -1721394749303124467}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5359835312973252763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Can/can_damage
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Enemies/Can/can_damage
+  guid: bd17e6dc9c577042a7977eeb8611e144
+  Banks:
+  - {fileID: -1721394749303124467}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 545
 --- !u!114 &5783393767716380985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -381,6 +681,75 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &5859687614257805868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Can/can_detect
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Enemies/Can/can_detect
+  guid: 39a1f31bc40351459843489a3c7c3cb1
+  Banks:
+  - {fileID: -1721394749303124467}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 545
+--- !u!114 &6791015899675324332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Can/can_death
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Enemies/Can/can_death
+  guid: 5821dba8ebdf0840a89efbc90fc0e27b
+  Banks:
+  - {fileID: -1721394749303124467}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 545
+--- !u!114 &7137580872653696920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/gameplay_music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/gameplay_music
+  guid: ea2963145ab67b40a7763711870e95a8
+  Banks:
+  - {fileID: -1721394749303124467}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 27480
 --- !u!114 &7277692137156291852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -404,3 +773,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 402
+--- !u!114 &7798084049185430317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Toaster/toaster_attack
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Enemies/Toaster/toaster_attack
+  guid: 3965461ce0e4904588932b249ba9e537
+  Banks:
+  - {fileID: -1721394749303124467}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
