@@ -11,6 +11,7 @@ public class PlayerCombat : MonoBehaviour
 
     public float attackRange;
     public int attackDamage = 40;
+    public int attackCoast;
     public int health;
     public float timeBetweenAttacks;
     [SerializeField] private int currentHealth;
@@ -56,6 +57,8 @@ public class PlayerCombat : MonoBehaviour
             FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/shock_attack");
 
             alreadyAttacked = true;
+
+            currentHealth -= attackCoast;
 
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
         }
