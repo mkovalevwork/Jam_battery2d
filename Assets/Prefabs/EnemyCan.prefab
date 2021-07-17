@@ -194,6 +194,10 @@ MonoBehaviour:
   timeBetweenAttacks: 1.5
   sightRange: 2.18
   attackRange: 0.63
+  detectSoundPath: event:/SFX/Enemies/Can/can_detect
+  damageSoundPath: event:/SFX/Enemies/Can/can_damage
+  attackSoundPath: event:/SFX/Enemies/Can/can_attack
+  deathSoundPath: event:/SFX/Enemies/Can/can_death
   playerInSightRange: 0
   playerInAttackRange: 0
   playerLayer:
