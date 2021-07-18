@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{758a279a-befc-44e9-bb1d-8d040027eca1}">
+		<property name="assetPath">
+			<value>Jam_Battery_gameplay_theme_v0.1 (loop).mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>102.92244897959183</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2491ec09-ea32-4b1a-94ba-a464d689fd65}</destination>
+		</relationship>
+	</object>
+</objects>
