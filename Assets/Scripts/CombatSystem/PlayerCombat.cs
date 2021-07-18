@@ -23,10 +23,12 @@ public class PlayerCombat : MonoBehaviour
     [SerializeField] bool ableToPickUpExtinguisher = false;
     [SerializeField] bool hasExtinguisher = false;
     [SerializeField] private GameObject nearExtinguisher;
+    [SerializeField] bool readyToKillFire = false;
 
     //ui
     public GameObject gameOverScreenHandler;
     public HealthBar healthBar;
+    public GameObject extinguisherIcon;
 
 
 
@@ -39,6 +41,14 @@ public class PlayerCombat : MonoBehaviour
 
     void Update()
     {
+        if (hasExtinguisher)
+        {
+            extinguisherIcon.SetActive(true);
+        }
+        if (!hasExtinguisher)
+        {
+            extinguisherIcon.SetActive(false);
+        }
 
         if (Input.GetMouseButtonDown(0))
         {
@@ -162,6 +172,20 @@ public class PlayerCombat : MonoBehaviour
                 //FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/shock_attack"); CHANGE TO CORRECT SOUND
             }
             
+        }
+        if (trigger.gameObject.tag == "FireObstaclTrigger")
+        {
+            readyToKillFire = true;
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                if (hasExtinguisher)
+                {
+                    Destroy(trigger.gameObject);
+                    readyToKillFire = false;
+                    hasExtinguisher = false;
+                }
+                
+            }
         }
         //for Extinguisher
         if (trigger.gameObject.tag == "Extinguisher")

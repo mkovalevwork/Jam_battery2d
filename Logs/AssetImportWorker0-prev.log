@@ -1,127 +1,127 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.14f1 (51d2f824827f) revision 5362424'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1110; Version 2009; 64bit' Language: 'ru' Physical Memory: 16343 MB
+OS: 'Windows 10 Pro; OS build 19041.1110; Version 2004; 64bit' Language: 'en' Physical Memory: 16332 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Unity\2021.1.14f1\Editor\Unity.exe
+D:\Programs\Unity\2021.1.14f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Jam_battery2d
+D:/Downloads/Jam_battery2d
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50168
-Successfully changed project path to: D:/Jam_battery2d
-D:/Jam_battery2d
+64911
+Successfully changed project path to: D:/Downloads/Jam_battery2d
+D:/Downloads/Jam_battery2d
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 72.61 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 119.14 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.14f1 (51d2f824827f)
-[Subsystems] Discovering subsystems at path D:/Unity/2021.1.14f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Jam_battery2d/Assets
+[Subsystems] Discovering subsystems at path D:/Programs/Unity/2021.1.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Downloads/Jam_battery2d/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
     Vendor:   NVIDIA
-    VRAM:     4053 MB
-    Driver:   30.0.14.7111
+    VRAM:     8088 MB
+    Driver:   27.21.14.6663
 Initialize mono
-Mono path[0] = 'D:/Unity/2021.1.14f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/2021.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Unity/2021.1.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
+Mono path[0] = 'D:/Programs/Unity/2021.1.14f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Programs/Unity/2021.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Programs/Unity/2021.1.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/2021.1.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001117 seconds.
+Register platform support module: D:/Programs/Unity/2021.1.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001357 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 64.23 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 104.65 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.595 seconds
+- Completed reload, in  1.820 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1596ms)
-		BeginReloadAssembly (57ms)
+	ReloadAssembly (1821ms)
+		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (574ms)
-			LoadAssemblies (56ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (860ms)
+			LoadAssemblies (111ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (230ms)
+			SetupTypeCache (328ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (250ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (383ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (64ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (138ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005915 seconds.
+Registered in 0.013528 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 61.20 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 101.76 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Mono: successfully reloaded assembly
-- Completed reload, in  1.405 seconds
+- Completed reload, in  2.339 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1406ms)
-		BeginReloadAssembly (179ms)
+	ReloadAssembly (2339ms)
+		BeginReloadAssembly (283ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1159ms)
-			LoadAssemblies (98ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1945ms)
+			LoadAssemblies (158ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (386ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (480ms)
+			SetupTypeCache (699ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (779ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (61ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (300ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (488ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.79 ms, found 5 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.31 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 56.7 MB.
-System memory in use after: 56.9 MB.
+System memory in use before: 56.8 MB.
+System memory in use after: 57.0 MB.
 
-Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 2680.
-Total: 2.518800 ms (FindLiveObjects: 0.213500 ms CreateObjectMapping: 0.098300 ms MarkObjects: 2.109400 ms  DeleteObjects: 0.096800 ms)
+Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 2681.
+Total: 4.266500 ms (FindLiveObjects: 0.406100 ms CreateObjectMapping: 0.085900 ms MarkObjects: 3.667200 ms  DeleteObjects: 0.105900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -130,300 +130,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_14.png
-  artifactKey: Guid(ae32b766667c2884a810b4973090e806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_14.png using Guid(ae32b766667c2884a810b4973090e806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b151933f28eac84cbad6ab5a057fd8') in 0.163135 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Sprites/pngwing.com.png
-  artifactKey: Guid(c38f7baaf1951174e81a644f8204a635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/pngwing.com.png using Guid(c38f7baaf1951174e81a644f8204a635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151e67464aceafb7241016cfc4b57b12') in 0.016192 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Sprites/Bar.png
-  artifactKey: Guid(97fbd4bb8b6d48e4d84ec4c2193605e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Bar.png using Guid(97fbd4bb8b6d48e4d84ec4c2193605e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b9e0e9959c95b436834d9945ecb71f') in 0.012314 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_10.png
-  artifactKey: Guid(53e82cc1d579b5540b16f2edacf2395e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_10.png using Guid(53e82cc1d579b5540b16f2edacf2395e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669adef1db2be1192c075b03050ae84d') in 0.011745 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Sprites/tile_0026.png
-  artifactKey: Guid(27d6206920c53294a8faa2551e0de1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/tile_0026.png using Guid(27d6206920c53294a8faa2551e0de1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78df7085e0b51f83bd254c0da1b4cbce') in 0.019174 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_11.png
-  artifactKey: Guid(ccf8698de9c3d5f4aa9fafb1bed5b7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_11.png using Guid(ccf8698de9c3d5f4aa9fafb1bed5b7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3fa815f0401b50702edc2467f93720') in 0.012128 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_15.png
-  artifactKey: Guid(8c6169a69d45c3e42a07f028aa057368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_15.png using Guid(8c6169a69d45c3e42a07f028aa057368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9db6549a8dfbd401159192609ab4ab3') in 0.012909 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_16.png
-  artifactKey: Guid(4aa236b74e9a1a748a2cd80cd4b5991d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_16.png using Guid(4aa236b74e9a1a748a2cd80cd4b5991d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13da4c4e74526d4d3656fa26ba2f7ec') in 0.011321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_24.png
-  artifactKey: Guid(1ae152963ae48c4448444f3ba27d01f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_24.png using Guid(1ae152963ae48c4448444f3ba27d01f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1667bccf633f91e5c595d46034aa479b') in 0.011762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Sprites/53a25bd5216754a9.png
-  artifactKey: Guid(94e07b7ced042234186cef5abdfe4fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/53a25bd5216754a9.png using Guid(94e07b7ced042234186cef5abdfe4fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c6127ff9157f990bd399c67e0ec5b1') in 0.070453 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_25.png
-  artifactKey: Guid(69414fa8447232548873fb408fff2747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_25.png using Guid(69414fa8447232548873fb408fff2747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1a482423dfca5a61b16857f61a528b') in 0.013911 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_29.png
-  artifactKey: Guid(49a644af4b259584cbf434c064d6d66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_29.png using Guid(49a644af4b259584cbf434c064d6d66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c20eed7585eb2de3664f7a28396ac2') in 0.012647 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_02.png
-  artifactKey: Guid(4c681adc03d4c364187350cb35b57589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_02.png using Guid(4c681adc03d4c364187350cb35b57589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a6d19cb677d02bb9b2c886c4b2d67e') in 0.012516 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_26.png
-  artifactKey: Guid(aef33a80eca3978499f81659c3b22fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_26.png using Guid(aef33a80eca3978499f81659c3b22fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2e63a1cc1cdddca07368a339cd6e97') in 0.013743 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_09.png
-  artifactKey: Guid(5487d042d6465a944a1c714ef1c21bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_09.png using Guid(5487d042d6465a944a1c714ef1c21bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20453032fa7c75ed5f57a128158e4f9') in 0.013082 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/Sprites/042d9dd64d256d9c.png
-  artifactKey: Guid(aba54f3701b4d9445bff26f3fe967af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/042d9dd64d256d9c.png using Guid(aba54f3701b4d9445bff26f3fe967af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec396a8d44d4b73b9f1f2c86bc673fe9') in 0.069819 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_31.png
-  artifactKey: Guid(db26a5aa4fde18d4a9ab66204fd3e666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_31.png using Guid(db26a5aa4fde18d4a9ab66204fd3e666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62723588e8282883a976ec26c26d6cb') in 0.012479 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_30.png
-  artifactKey: Guid(cadfcec7c478af04d9f440f01af20068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_30.png using Guid(cadfcec7c478af04d9f440f01af20068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5f9cd4b8c50b3445e0eae73a3f4152') in 0.013383 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_04.png
-  artifactKey: Guid(b7a26fe9c71a62844b069338476b152b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_04.png using Guid(b7a26fe9c71a62844b069338476b152b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8e821fbb20faede70e34e8d36f467e') in 0.012732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Sprites/kisspng-rockets-missiles-weapon-logo-congreve-rocket-5b3ebb7ebb5da5.7074742915308378867675.png
-  artifactKey: Guid(67176c42f71524043bfebfe8ef7dbd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/kisspng-rockets-missiles-weapon-logo-congreve-rocket-5b3ebb7ebb5da5.7074742915308378867675.png using Guid(67176c42f71524043bfebfe8ef7dbd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2089fc287eb8edf6457e6f926a59995b') in 0.011665 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_32.png
-  artifactKey: Guid(8de6e27995eedca45ac036f42eca4501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_32.png using Guid(8de6e27995eedca45ac036f42eca4501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a979a3b4891cfb4314c7054a5ad542d8') in 0.012107 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Sprites/extinguisherv2.png
-  artifactKey: Guid(cb9f76db728d48e4dbdd90905b8ba643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/extinguisherv2.png using Guid(cb9f76db728d48e4dbdd90905b8ba643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6282ad833bd510384a3ad6f0092ec8b4') in 0.013446 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Sprites/3aebca699dbf0093.png
-  artifactKey: Guid(ae4a7a371a5d86343a94c76e5b54d056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/3aebca699dbf0093.png using Guid(ae4a7a371a5d86343a94c76e5b54d056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40469f39d9c57e09204039a15ffc0e3') in 0.082854 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_19.png
-  artifactKey: Guid(7bf94103a650c0744b62d3a2661f85f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_19.png using Guid(7bf94103a650c0744b62d3a2661f85f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cdbd517415233b2caebd2f0ba42897b') in 0.012436 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_13.png
-  artifactKey: Guid(eb2e5555fcd8bfe4ab8b081c46c8df4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_13.png using Guid(eb2e5555fcd8bfe4ab8b081c46c8df4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a67d6a6a295cb8cc8f1f2885b2ef0a') in 0.012937 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_18.png
-  artifactKey: Guid(868beba2f6179ff47b878315b9aa03a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_18.png using Guid(868beba2f6179ff47b878315b9aa03a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd0029b639cbc28ee4d12418bd5df39') in 0.013316 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_06.png
-  artifactKey: Guid(f25f071b2c54c8c40a94b072b3dcb1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_06.png using Guid(f25f071b2c54c8c40a94b072b3dcb1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1015fbf5ec7f68b2c7e6ac1659d00c0d') in 0.013622 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Sprites/Fire.png
-  artifactKey: Guid(868bf0917510806489545ca8104f1d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Fire.png using Guid(868bf0917510806489545ca8104f1d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38a393790ba633237b0d61df510f5d1') in 0.083605 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Sprites/character_0014.png
-  artifactKey: Guid(c46310a2b04ee774695555ac27f5b01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/character_0014.png using Guid(c46310a2b04ee774695555ac27f5b01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7630ba7dbd8ea88f243dbed1ac0ecd') in 0.011726 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Sprites/Heart.png
-  artifactKey: Guid(33262e5f686582949a141182c34aaa80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Heart.png using Guid(33262e5f686582949a141182c34aaa80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8e21298001dee7b1d0a692005b95b1') in 0.010385 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_03.png
-  artifactKey: Guid(21111998f22c2b640a68d9f9ed8f1319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_03.png using Guid(21111998f22c2b640a68d9f9ed8f1319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513b0c94210158566621a93c2b53c64a') in 0.012899 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Sprites/BGpng.png
-  artifactKey: Guid(02996662145185140bdbeaeb2daf6b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/BGpng.png using Guid(02996662145185140bdbeaeb2daf6b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9b30cf1979bbb1b848c64918ec45d3') in 0.056467 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_20.png
-  artifactKey: Guid(5908a9441951b3249b6b4461b1de7dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_20.png using Guid(5908a9441951b3249b6b4461b1de7dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b54bc654d0b5224371030f5bf1e782e') in 0.013820 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000730 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_22.png
-  artifactKey: Guid(6a643249a1319044896710a0b8925a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_22.png using Guid(6a643249a1319044896710a0b8925a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95fade99d3402e9f2504b428d9171d5f') in 0.012277 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Sprites/extinguisher.png
-  artifactKey: Guid(760f4d3cb1bc16949b0a278aeabf91b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/extinguisher.png using Guid(760f4d3cb1bc16949b0a278aeabf91b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45083a93265221d3ab10073eca709317') in 0.013701 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_21.png
-  artifactKey: Guid(af01fa196a445f544bc86da0ada9ded8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_21.png using Guid(af01fa196a445f544bc86da0ada9ded8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549f290c9730eda938fd9ff21cbab3ff') in 0.034469 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_17.png
-  artifactKey: Guid(f0e5b1dc5ebe21f49bc932d662bea28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_17.png using Guid(f0e5b1dc5ebe21f49bc932d662bea28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec10b2a7199d9955d8cd9f3ab7cfe25d') in 0.011292 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_27.png
-  artifactKey: Guid(4a8911eb54dcfd742b11c9469266e70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_27.png using Guid(4a8911eb54dcfd742b11c9469266e70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3347db0631db6b8ca8fd1e03f29bed86') in 0.010965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_28.png
-  artifactKey: Guid(6c3494ec2f578614e90b231b0287d315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_28.png using Guid(6c3494ec2f578614e90b231b0287d315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dffc3acd00fa0f2706668d5dd2270c4') in 0.011777 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Sprites/toaster_PNG11.png
-  artifactKey: Guid(38fef9e969c9bb5468d619e1d9660f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/toaster_PNG11.png using Guid(38fef9e969c9bb5468d619e1d9660f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c715d2c47106dc661637aab13dc3d98') in 0.018218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000658 seconds.
-  path: Assets/Sprites/Rocket.jpg
-  artifactKey: Guid(3a26178ce3df5bd429f3d8d749e2ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Rocket.jpg using Guid(3a26178ce3df5bd429f3d8d749e2ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd169634d311769d5bbc81609efab7495') in 0.078795 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_01.png
-  artifactKey: Guid(150c47c6d29c0884782c291bb318089b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_01.png using Guid(150c47c6d29c0884782c291bb318089b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1acf31508aef81c0212a5392393bac') in 0.013756 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_23.png
-  artifactKey: Guid(d054c10d64bd9864ab6e4fef3e01638d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_23.png using Guid(d054c10d64bd9864ab6e4fef3e01638d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e955bf62d59f07ee3533c450d0f9650') in 0.012446 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_07.png
-  artifactKey: Guid(e7c0b6427a2c8eb4c88c5a0f4cfa5b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_07.png using Guid(e7c0b6427a2c8eb4c88c5a0f4cfa5b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7588c612f59b0f8610ee1cd5e087ca41') in 0.013873 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/Sprites/brick-png-39828.png
-  artifactKey: Guid(6bbcc937362b7db47b4e2620cbaf8b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/brick-png-39828.png using Guid(6bbcc937362b7db47b4e2620cbaf8b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38da6f480d308924d1754beca5048c24') in 0.013429 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_08.png
-  artifactKey: Guid(12d43afeaee718c4b827636168a44a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_08.png using Guid(12d43afeaee718c4b827636168a44a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab9006a4817dcfe16e1c233ce196da1') in 0.012146 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_12.png
-  artifactKey: Guid(45f60c9e9da70304f97bfabe86d43d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_12.png using Guid(45f60c9e9da70304f97bfabe86d43d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a70e9d4742507e5264ea5cd7418fdbb') in 0.011919 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_05.png
-  artifactKey: Guid(3b69eb29cd414b34f8eb63706ffa1eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/JUNKS-WALLS_05.png using Guid(3b69eb29cd414b34f8eb63706ffa1eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c08d3a3c580ca568a8a66fd753d14aa2') in 0.011947 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.618214 seconds.
-  path: Assets/Sprites/WALLS SPRITES/Materials/JUNKS-WALLS_07.mat
-  artifactKey: Guid(833e229b754b84a41872a553bea24cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/WALLS SPRITES/Materials/JUNKS-WALLS_07.mat using Guid(833e229b754b84a41872a553bea24cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba662a89203927d3ccef9791c99b6996') in 0.038748 seconds 
+  path: Assets/Prefabs/Rocket.prefab
+  artifactKey: Guid(e3d64a050684c4b47bfbc3deca8e398f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket.prefab using Guid(e3d64a050684c4b47bfbc3deca8e398f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a90272d52bb8d818dc5b26946c65a83') in 0.183719 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
