@@ -5957,7 +5957,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.603
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -7021,11 +7021,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6197272375591519889, guid: c28355cdd84b27a4bb7d330a3e87bd98, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.67
+      value: -4.98
       objectReference: {fileID: 0}
     - target: {fileID: 6197272375591519889, guid: c28355cdd84b27a4bb7d330a3e87bd98, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.6
+      value: 0.69
       objectReference: {fileID: 0}
     - target: {fileID: 6197272375591519889, guid: c28355cdd84b27a4bb7d330a3e87bd98, type: 3}
       propertyPath: m_LocalPosition.z
