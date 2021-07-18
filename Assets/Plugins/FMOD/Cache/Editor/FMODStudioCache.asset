@@ -143,46 +143,6 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
---- !u!114 &-6044047735209830460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/gameplay_music/pause_filter
-  m_EditorClassIdentifier: 
-  Name: pause_filter
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &-6040287985722569122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/gameplay_music/pause_filter
-  m_EditorClassIdentifier: 
-  Name: pause_filter
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
 --- !u!114 &-6017505432429232065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -225,7 +185,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 547
+  Length: 647
 --- !u!114 &-5022599013527075707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -264,11 +224,11 @@ MonoBehaviour:
   Path: Assets/Fmod Sound/Fmod Sound Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637622451337711415
+  lastModified: 637622189158206485
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1782
+    Value: 1690
   Exists: 1
 --- !u!114 &-4556362575106332874
 MonoBehaviour:
@@ -439,26 +399,6 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 33
---- !u!114 &-3795179882333645930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/extinguisher_shot/extinguisher_charge
-  m_EditorClassIdentifier: 
-  Name: extinguisher_charge
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
 --- !u!114 &-3715797702484420887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -479,26 +419,6 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
---- !u!114 &-3359160473059118893
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/extinguisher_shot/extinguisher_charge
-  m_EditorClassIdentifier: 
-  Name: extinguisher_charge
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
 --- !u!114 &-3161525669005740380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -585,26 +505,6 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 3168
---- !u!114 &-2427630258107588425
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/extinguisher_shot/extinguisher_charge
-  m_EditorClassIdentifier: 
-  Name: extinguisher_charge
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
 --- !u!114 &-2197345208849637807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -660,7 +560,7 @@ MonoBehaviour:
   Path: Assets/Fmod Sound/Fmod Sound Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637622451337681422
+  lastModified: 637622433972569139
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -707,31 +607,11 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: -2427630258107588425}
+  - {fileID: -414293271505458419}
   MinDistance: 1
   MaxDistance: 20
   Length: 4209
 --- !u!114 &-1135700657450380568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/extinguisher_shot/extinguisher_charge
-  m_EditorClassIdentifier: 
-  Name: extinguisher_charge
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &-1118437453405327041
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -795,6 +675,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4707
+--- !u!114 &-414293271505458419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/extinguisher_shot/extinguisher_charge
+  m_EditorClassIdentifier: 
+  Name: extinguisher_charge
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -827,57 +727,13 @@ MonoBehaviour:
   - {fileID: 7137580872653696920}
   - {fileID: 1732241841276607949}
   - {fileID: -2472409031800041488}
-  - {fileID: 1023722450336885221}
   EditorParameters: []
   MasterBanks:
   - {fileID: -1721394749303124467}
   StringsBanks:
   - {fileID: -4718392588317824788}
-  stringsBankWriteTime: 637622451337711415
+  stringsBankWriteTime: 637622189158206485
   cacheVersion: 6
---- !u!114 &454327054109185719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/extinguisher_shot/extinguisher_charge
-  m_EditorClassIdentifier: 
-  Name: extinguisher_charge
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
---- !u!114 &1023722450336885221
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/Player/Extinguisher/extinguisher_puckup
-  m_EditorClassIdentifier: 
-  Path: event:/SFX/Player/Extinguisher/extinguisher_puckup
-  guid: a9a4b614b1ac194396ad0ca96efd5662
-  Banks:
-  - {fileID: -1721394749303124467}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1073
 --- !u!114 &1576820652824517346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -941,26 +797,6 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
---- !u!114 &1731681615831583292
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/gameplay_music/pause_filter
-  m_EditorClassIdentifier: 
-  Name: pause_filter
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
 --- !u!114 &1732241841276607949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1091,66 +927,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 507
---- !u!114 &3709048681078485902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/extinguisher_shot/extinguisher_charge
-  m_EditorClassIdentifier: 
-  Name: extinguisher_charge
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &3797757015638230925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/gameplay_music/pause_filter
-  m_EditorClassIdentifier: 
-  Name: pause_filter
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
---- !u!114 &4360109781585115433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/extinguisher_shot/extinguisher_charge
-  m_EditorClassIdentifier: 
-  Name: extinguisher_charge
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
 --- !u!114 &4398125373842269113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1171,26 +947,6 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
---- !u!114 &4461472451136838517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/gameplay_music/pause_filter
-  m_EditorClassIdentifier: 
-  Name: pause_filter
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
 --- !u!114 &4635369840767467172
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1231,26 +987,6 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 1
---- !u!114 &5252355217482320903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/extinguisher_shot/extinguisher_charge
-  m_EditorClassIdentifier: 
-  Name: extinguisher_charge
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
 --- !u!114 &5359835312973252763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1356,26 +1092,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 300
---- !u!114 &6694676872509219279
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/gameplay_music/pause_filter
-  m_EditorClassIdentifier: 
-  Name: pause_filter
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 1
 --- !u!114 &6791015899675324332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1458,8 +1174,7 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
-  Parameters:
-  - {fileID: -6044047735209830460}
+  Parameters: []
   MinDistance: 0
   MaxDistance: 0
   Length: 102922
@@ -1529,23 +1244,3 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1040
---- !u!114 &8058328072826623495
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/gameplay_music/pause_filter
-  m_EditorClassIdentifier: 
-  Name: pause_filter
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Exists: 0
