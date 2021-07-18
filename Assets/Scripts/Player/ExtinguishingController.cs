@@ -4,6 +4,8 @@ using UnityEngine.Events;
 
 public class ExtinguishingController : MonoBehaviour
 {
+    [SerializeField] private GameObject particle;
+    
     // Active range
     [SerializeField] private float range;
 
@@ -41,6 +43,13 @@ public class ExtinguishingController : MonoBehaviour
 
     void Animate()
     {
+        particle.SetActive(true);
         animation = true;
+        Invoke("ParticleActiveFalse", 1f);
+    }
+
+    void ParticleActiveFalse()
+    {
+        particle.SetActive(false);
     }
 }
