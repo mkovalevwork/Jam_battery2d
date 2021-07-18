@@ -74,9 +74,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -1941716801
+  m_SortingLayer: 1
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: c38f7baaf1951174e81a644f8204a635, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -200,6 +200,7 @@ MonoBehaviour:
   damageSoundPath: event:/SFX/Enemies/Can/can_damage
   attackSoundPath: event:/SFX/Enemies/Can/can_attack
   deathSoundPath: event:/SFX/Enemies/Can/can_death
+  projectile: {fileID: 0}
   playerInSightRange: 0
   playerInAttackRange: 0
   playerLayer:

@@ -19,6 +19,7 @@ public class CanEnemy : MonoBehaviour
     [SerializeField] private bool toasterEnemy;
 
     //STATS
+
     public int health;
     [SerializeField]private int currentHealth;
     public int damage;

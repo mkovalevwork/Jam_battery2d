@@ -9,6 +9,7 @@ public class PlayerCombat : MonoBehaviour
     public Transform attackPoint;
     public LayerMask enemyLayers;
 
+    
     public float attackRange;
     public int attackDamage = 40;
     public int attackCoast;
@@ -22,6 +23,9 @@ public class PlayerCombat : MonoBehaviour
     [SerializeField] bool ableToPickUpExtinguisher = false;
     [SerializeField] bool hasExtinguisher = false;
     [SerializeField] private GameObject nearExtinguisher;
+
+
+    public gameOverScreen GameOverScreen;
 
 
 
@@ -44,6 +48,11 @@ public class PlayerCombat : MonoBehaviour
             {
                 PickUpExtinguisher();
             }
+        }
+
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            GameOver();
         }
         
     }
@@ -138,10 +147,6 @@ public class PlayerCombat : MonoBehaviour
     }
     #endregion
 
-
-    
-
-
     
     void OnTriggerStay2D(Collider2D trigger)
     {
@@ -183,15 +188,16 @@ public class PlayerCombat : MonoBehaviour
         yield return new WaitForSecondsRealtime(3);
         canTakeDamage = true;
     }
-    
-
-
-
-    
+       
     void PickUpExtinguisher()
     {
         Destroy(nearExtinguisher);
         ableToPickUpExtinguisher = false;
         hasExtinguisher = true;
+    }
+
+    public void GameOver()
+    {
+        GameOverScreen.Setup(0);
     }
 }
