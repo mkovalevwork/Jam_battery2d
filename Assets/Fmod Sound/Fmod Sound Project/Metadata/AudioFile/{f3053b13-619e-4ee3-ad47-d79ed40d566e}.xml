@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{f3053b13-619e-4ee3-ad47-d79ed40d566e}">
+		<property name="assetPath">
+			<value>charger_electric_arcing_tail_3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.48195011337868482</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2491ec09-ea32-4b1a-94ba-a464d689fd65}</destination>
+		</relationship>
+	</object>
+</objects>

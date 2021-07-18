@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{bcbf513e-6eb3-481c-a62a-6d9a03faca98}">
+		<property name="assetPath">
+			<value>charger_power_up.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>2.2519727891156465</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2491ec09-ea32-4b1a-94ba-a464d689fd65}</destination>
+		</relationship>
+	</object>
+</objects>
