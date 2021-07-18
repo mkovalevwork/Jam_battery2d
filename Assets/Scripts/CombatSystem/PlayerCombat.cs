@@ -24,8 +24,9 @@ public class PlayerCombat : MonoBehaviour
     [SerializeField] bool hasExtinguisher = false;
     [SerializeField] private GameObject nearExtinguisher;
 
-
+    //ui
     public GameObject gameOverScreenHandler;
+    public HealthBar healthBar;
 
 
 
@@ -33,6 +34,7 @@ public class PlayerCombat : MonoBehaviour
     void Start()
     {
         currentHealth = health;
+        healthBar.SetMaxHealth(health);
     }
 
     void Update()
@@ -95,6 +97,7 @@ public class PlayerCombat : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
+        healthBar.SetHealth(currentHealth);
 
         if (currentHealth <= 0)
         {
