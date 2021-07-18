@@ -25,7 +25,7 @@ public class PlayerCombat : MonoBehaviour
     [SerializeField] private GameObject nearExtinguisher;
 
 
-    public gameOverScreen GameOverScreen;
+    public GameObject gameOverScreenHandler;
 
 
 
@@ -37,6 +37,7 @@ public class PlayerCombat : MonoBehaviour
 
     void Update()
     {
+
         if (Input.GetMouseButtonDown(0))
         {
             Attack();
@@ -50,10 +51,7 @@ public class PlayerCombat : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            GameOver();
-        }
+        
         
     }
 
@@ -100,6 +98,7 @@ public class PlayerCombat : MonoBehaviour
 
         if (currentHealth <= 0)
         {
+            gameOverScreenHandler.GetComponent<gameOverScreen>().ShowEndScreen();
             Invoke(nameof(DestroyPlayer), 0.5f);
             //death Animation to add/sound///////////////////////////
         }
@@ -196,8 +195,5 @@ public class PlayerCombat : MonoBehaviour
         hasExtinguisher = true;
     }
 
-    public void GameOver()
-    {
-        GameOverScreen.Setup(0);
-    }
+   
 }

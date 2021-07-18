@@ -124,11 +124,12 @@ public class CanEnemy : MonoBehaviour
         {
             //Attack code here
             Debug.Log("attack done");
-            player.GetComponent<PlayerCombat>().TakeDamage(damage);
+            Instantiate(projectile,transform.position,Quaternion.identity);
+            
             //attack Animation to add/sound///////////////////////////
 
-            // Play attack sound
-            PlaySound(attackSoundPath);
+            // Play attack sound ƒÀﬂ «¿œ”— ¿ –¿ ≈“€
+            //PlaySound(attackSoundPath);
 
             //End of attack code
 

@@ -132,7 +132,7 @@ MonoBehaviour:
   damageSoundPath: event:/SFX/Enemies/Toaster/toaster_damage
   attackSoundPath: event:/SFX/Enemies/Toaster/toaster_attack
   deathSoundPath: event:/SFX/Enemies/Toaster/toaster_death
-  projectile: {fileID: 0}
+  projectile: {fileID: 7067765892486003467, guid: e3d64a050684c4b47bfbc3deca8e398f, type: 3}
   playerInSightRange: 0
   playerInAttackRange: 0
   playerLayer:

@@ -16,6 +16,8 @@ public class RotationToMouse : MonoBehaviour
         rotateAngle = Mathf.Atan2(rotateDirection.y, rotateDirection.x) * Mathf.Rad2Deg;
 
         // Rotate the object
-        transform.rotation = Quaternion.AngleAxis(rotateAngle, Vector3.forward);        
+        transform.rotation = Quaternion.AngleAxis(rotateAngle, Vector3.forward);
+        
+        
     }
 }
