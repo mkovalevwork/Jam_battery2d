@@ -127,10 +127,10 @@ public class PlayerCombat : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/player_damage");
+
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth);
-
-        
     }
 
     void DestroyPlayer()
