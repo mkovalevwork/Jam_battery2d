@@ -189,7 +189,7 @@ public class PlayerCombat : MonoBehaviour
             {
                 StartCoroutine(WaitForSeconds());
                 currentHealth = (currentHealth - trigger.gameObject.GetComponent<FireObstacleController>().DamageOfFireCollision);
-                //FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/shock_attack"); CHANGE TO CORRECT SOUND
+                FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/Extinguisher/extinguisher_dash");
             }
             
         }
@@ -246,6 +246,8 @@ public class PlayerCombat : MonoBehaviour
        
     void PickUpExtinguisher()
     {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/Extinguisher/extinguisher_up");
+
         Destroy(nearExtinguisher);
         ableToPickUpExtinguisher = false;
         hasExtinguisher = true;
