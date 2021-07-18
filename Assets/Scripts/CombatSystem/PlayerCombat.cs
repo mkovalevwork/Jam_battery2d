@@ -53,8 +53,13 @@ public class PlayerCombat : MonoBehaviour
             }
         }
 
-        
-        
+        healthBar.SetHealth(currentHealth);
+        if (currentHealth <= 0)
+        {
+            gameOverScreenHandler.GetComponent<gameOverScreen>().ShowEndScreen();
+            Invoke(nameof(DestroyPlayer), 0.5f);
+            //death Animation to add/sound///////////////////////////
+        }
     }
 
     
@@ -99,12 +104,7 @@ public class PlayerCombat : MonoBehaviour
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth);
 
-        if (currentHealth <= 0)
-        {
-            gameOverScreenHandler.GetComponent<gameOverScreen>().ShowEndScreen();
-            Invoke(nameof(DestroyPlayer), 0.5f);
-            //death Animation to add/sound///////////////////////////
-        }
+        
     }
 
     void DestroyPlayer()
