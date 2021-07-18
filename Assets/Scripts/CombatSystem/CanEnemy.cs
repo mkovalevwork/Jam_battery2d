@@ -40,6 +40,7 @@ public class CanEnemy : MonoBehaviour
     bool alreadyAttacked;
     public GameObject projectile;
 
+    public HealthBar healthBar;
 
     //Utility
 
@@ -53,6 +54,7 @@ public class CanEnemy : MonoBehaviour
     {
         //STATS
         currentHealth = health;
+        healthBar.SetMaxHealth(health);
 
         //States
         agent = GetComponent<NavMeshAgent>();
@@ -84,9 +86,9 @@ public class CanEnemy : MonoBehaviour
                 Patrolling();
             }
         }
-        
-        
-        
+        healthBar.SetHealth(currentHealth);
+
+
     }
 
 
