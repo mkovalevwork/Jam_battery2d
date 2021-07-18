@@ -118,6 +118,7 @@ public class PlayerCombat : MonoBehaviour
         {
             if (collision.GetComponent<ChargerController>().hasPower == true)
             {
+                FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Environment/Charger/charger");
                 ReCharging();
                 GetComponent<Movement>().onStun = true;
                 collision.GetComponent<ChargerController>().hasPower = false;
