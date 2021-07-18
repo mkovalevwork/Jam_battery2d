@@ -30,7 +30,7 @@ public class PlayerCombat : MonoBehaviour
     public HealthBar healthBar;
     public GameObject extinguisherIcon;
 
-
+    bool isDead = false;
 
 
     void Start()
@@ -52,7 +52,11 @@ public class PlayerCombat : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            Attack();
+            if (currentHealth > 0)
+            {
+                Attack();
+            }
+            
         }
 
         if (ableToPickUpExtinguisher)
@@ -66,12 +70,24 @@ public class PlayerCombat : MonoBehaviour
         healthBar.SetHealth(currentHealth);
         if (currentHealth <= 0)
         {
-            gameOverScreenHandler.GetComponent<gameOverScreen>().ShowEndScreen();
-            Invoke(nameof(DestroyPlayer), 0.5f);
+            Debug.Log("Health<=0");
+            if (isDead == false)
+            {
+                Debug.Log("load isDeadChanger");
+                isDeadChanger();
+            }
+            //Invoke(nameof(DestroyPlayer), 4f);
             //death Animation to add/sound///////////////////////////
         }
     }
-
+     void isDeadChanger()
+    {
+        Debug.Log("Start isDeadChanger");
+        isDead = true;
+        gameOverScreenHandler.GetComponent<gameOverScreen>().ShowEndScreen();
+        animator.SetTrigger("isDead");
+        gameObject.GetComponent<Movement>().enabled = false;
+    }
     
     void Attack()
     {
@@ -162,6 +178,10 @@ public class PlayerCombat : MonoBehaviour
     
     void OnTriggerStay2D(Collider2D trigger)
     {
+        if (trigger.gameObject.CompareTag("Exit"))
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("ToBeContinued");
+        }
         //for foreobstacle
         if (trigger.gameObject.tag == "FireObstacle")
         {
@@ -200,14 +220,23 @@ public class PlayerCombat : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D trigger)
+    /*private void OnTriggerExit2D(Collider2D trigger)
     {
         if (trigger.gameObject.tag == "Extinguisher")
         {
             ableToPickUpExtinguisher = false;
             nearExtinguisher = null;
         }
+    }*/
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Exit"))
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("ToBeContinued");
+        }
     }
+
     IEnumerator WaitForSeconds()
     {
         canTakeDamage = false;

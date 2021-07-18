@@ -48,6 +48,10 @@ public class CanEnemy : MonoBehaviour
     public bool playerInSightRange;
     public bool playerInAttackRange;
     public LayerMask playerLayer;
+    public Animator animator;
+
+    Vector3 agentDirection;
+    Vector2 agentDirectionVector2;
 
 
     void Start()
@@ -63,6 +67,7 @@ public class CanEnemy : MonoBehaviour
 
         //Utility
         player = PlayerManager.instance.player;
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -88,7 +93,17 @@ public class CanEnemy : MonoBehaviour
         }
         healthBar.SetHealth(currentHealth);
 
-
+        if (canEnemy)
+        {
+            agentDirection = agent.desiredVelocity;
+            agentDirectionVector2.x = agentDirection.x;
+            agentDirectionVector2.y = agentDirection.y;
+            animator.SetFloat("Horizontal", agentDirectionVector2.x);
+            animator.SetFloat("Vertical", agentDirectionVector2.y);
+            animator.SetFloat("Magnitude", agentDirectionVector2.magnitude);
+        }
+        
+        
     }
 
 

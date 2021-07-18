@@ -11,6 +11,7 @@ TagManager:
   - FireObstacle
   - Extinguisher
   - FireObstaclTrigger
+  - Exit
   layers:
   - Default
   - TransparentFX
