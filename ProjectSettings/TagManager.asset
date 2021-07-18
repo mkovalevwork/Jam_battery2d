@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - Fire
   - Charger
+  - FireObstacle
+  - Extinguisher
   layers:
   - Default
   - TransparentFX

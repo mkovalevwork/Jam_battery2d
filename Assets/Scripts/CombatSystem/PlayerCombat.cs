@@ -15,11 +15,16 @@ public class PlayerCombat : MonoBehaviour
     public int health;
     public float timeBetweenAttacks;
     [SerializeField] private int currentHealth;
-    bool alreadyAttacked;
+    bool alreadyAttacked; //for cooldown damage to enemys
+
+    bool canTakeDamage = true;//for hit from fire
+
+    [SerializeField] bool ableToPickUpExtinguisher = false;
+    [SerializeField] bool hasExtinguisher = false;
+    [SerializeField] private GameObject nearExtinguisher;
 
 
-    //test sound
-    //public AudioSource hitSound;
+
 
     void Start()
     {
@@ -31,6 +36,14 @@ public class PlayerCombat : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             Attack();
+        }
+
+        if (ableToPickUpExtinguisher)
+        {
+            if (Input.GetKeyDown(KeyCode.T))
+            {
+                PickUpExtinguisher();
+            }
         }
         
     }
@@ -98,6 +111,7 @@ public class PlayerCombat : MonoBehaviour
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 
+    #region ChargeMechanic
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Charger"))
@@ -120,5 +134,63 @@ public class PlayerCombat : MonoBehaviour
     void ResetStun()
     {
         GetComponent<Movement>().onStun = false;
+    }
+    #endregion
+
+
+    
+
+
+    
+    void OnTriggerStay2D(Collider2D trigger)
+    {
+        //for foreobstacle
+        if (trigger.gameObject.tag == "FireObstacle")
+        {
+            if (canTakeDamage)
+            {
+                StartCoroutine(WaitForSeconds());
+                currentHealth = (currentHealth - trigger.gameObject.GetComponent<FireObstacleController>().DamageOfFireCollision);
+                //FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/shock_attack"); CHANGE TO CORRECT SOUND
+            }
+            
+        }
+        //for Extinguisher
+        if (trigger.gameObject.tag == "Extinguisher")
+        {
+            ableToPickUpExtinguisher = true;
+            nearExtinguisher = trigger.gameObject;
+        }
+        else
+        {
+            ableToPickUpExtinguisher = false;
+            nearExtinguisher = null;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D trigger)
+    {
+        if (trigger.gameObject.tag == "Extinguisher")
+        {
+            ableToPickUpExtinguisher = false;
+            nearExtinguisher = null;
+        }
+    }
+    IEnumerator WaitForSeconds()
+    {
+        canTakeDamage = false;
+        yield return new WaitForSecondsRealtime(3);
+        canTakeDamage = true;
+    }
+    
+
+
+
+    
+    void PickUpExtinguisher()
+    {
+        Destroy(nearExtinguisher);
+        ableToPickUpExtinguisher = false;
+        hasExtinguisher = true;
     }
 }
