@@ -127,10 +127,11 @@ public class PlayerCombat : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        // Play damage sound.
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/player_damage");
+
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth);
-
-        
     }
 
     void DestroyPlayer()
@@ -189,7 +190,7 @@ public class PlayerCombat : MonoBehaviour
             {
                 StartCoroutine(WaitForSeconds());
                 currentHealth = (currentHealth - trigger.gameObject.GetComponent<FireObstacleController>().DamageOfFireCollision);
-                //FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/shock_attack"); CHANGE TO CORRECT SOUND
+                FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/player_damage");
             }
             
         }
@@ -200,11 +201,12 @@ public class PlayerCombat : MonoBehaviour
             {
                 if (hasExtinguisher)
                 {
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/Extinguisher/extinguisher_dash");
+
                     Destroy(trigger.gameObject);
                     readyToKillFire = false;
                     hasExtinguisher = false;
                 }
-                
             }
         }
         //for Extinguisher
@@ -246,10 +248,12 @@ public class PlayerCombat : MonoBehaviour
        
     void PickUpExtinguisher()
     {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/Extinguisher/extinguisher_puckup");
+
         Destroy(nearExtinguisher);
         ableToPickUpExtinguisher = false;
         hasExtinguisher = true;
     }
 
-   
+
 }
