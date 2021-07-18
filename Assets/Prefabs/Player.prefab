@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &487261580
 Transform:
   m_ObjectHideFlags: 0
@@ -26,11 +26,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 487261579}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -4.59, y: 2.26, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6197272375591519889}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &487261582
 ParticleSystem:
@@ -4823,7 +4823,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1138114416
 Transform:
   m_ObjectHideFlags: 0
@@ -4836,7 +4836,7 @@ Transform:
   m_LocalScale: {x: 1.3333334, y: 1.3333334, z: 1}
   m_Children: []
   m_Father: {fileID: 6197272375591519889}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &1138114418
 Camera:
@@ -4911,6 +4911,7 @@ GameObject:
   - component: {fileID: 397752130}
   - component: {fileID: 397752124}
   - component: {fileID: 117220635}
+  - component: {fileID: 7542224708725521916}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -4927,10 +4928,10 @@ Transform:
   m_GameObject: {fileID: 6197272375591519901}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.22, y: 0.59, z: 0}
-  m_LocalScale: {x: 0.75, y: 0.75, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1138114416}
   - {fileID: 487261580}
+  - {fileID: 1138114416}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5022,7 +5023,7 @@ MonoBehaviour:
   player: {fileID: 6197272375591519889}
   speedX: 1
   speedY: 1
-  speed: 0.06
+  speed: 0.045
   soundDelay: 0.25
   animator: {fileID: 397752131}
   onStun: 0
@@ -5062,16 +5063,19 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 64
-  attackRange: 0.87
-  attackDamage: 30
-  attackCoast: 1
+  attackRange: 1.5
+  attackDamage: 15
+  attackCoast: 3
   health: 100
-  timeBetweenAttacks: 0.5
+  timeBetweenAttacks: 2
   currentHealth: 0
   ableToPickUpExtinguisher: 0
   hasExtinguisher: 0
   nearExtinguisher: {fileID: 0}
+  readyToKillFire: 0
   gameOverScreenHandler: {fileID: 0}
+  healthBar: {fileID: 0}
+  extinguisherIcon: {fileID: 0}
 --- !u!114 &397752124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5084,12 +5088,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9a4059bded5c104aa475f55748d530c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  particle: {fileID: 0}
   range: 2
   canActive:
     m_PersistentCalls:
       m_Calls: []
   animation: 0
 --- !u!61 &117220635
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6197272375591519901}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.005450815, y: -0.09448083}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 12.72, y: 12.49}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 1
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.3204651, y: 0.6366123}
+  m_EdgeRadius: 0
+--- !u!61 &7542224708725521916
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
