@@ -12,48 +12,53 @@ public class Movement : MonoBehaviour
     public Animator animator;
     private float horizontalInput;
 
+    public bool onStun = false;
+
     private void Start()
     {
         horizontalInput = Input.GetAxis("Horizontal");
     }
     void FixedUpdate()
     {
-        
-        
-
-        if (Input.GetKey(KeyCode.W)) speedX = speed; 
-        if (Input.GetKey(KeyCode.S)) speedX = -speed; 
-        
-        if (Input.GetKey(KeyCode.D)) speedY = speed; 
-        if (Input.GetKey(KeyCode.A)) speedY = -speed;
-
-        if (!(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S)))
+        if (!onStun)
         {
-            speedX = 0;
-        }
-        
-        if(!(Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.A)))
-        {
-            speedY = 0;
-        }
+            if (Input.GetKey(KeyCode.W)) speedX = speed;
+            if (Input.GetKey(KeyCode.S)) speedX = -speed;
 
-        vel = new Vector2(speedY, speedX);
-        
-        player.Translate(vel);
+            if (Input.GetKey(KeyCode.D)) speedY = speed;
+            if (Input.GetKey(KeyCode.A)) speedY = -speed;
 
-        if (speedX != 0 || speedY != 0)
-        {
-            if (!isSoundPlayed)
+            if (!(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S)))
             {
-                PlayFootstepsSound();
-                isSoundPlayed = true;
-
-                Invoke(nameof(ResetAttack), soundDelay);
+                speedX = 0;
             }
+
+            if (!(Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.A)))
+            {
+                speedY = 0;
+            }
+
+            vel = new Vector2(speedY, speedX);
+
+            player.Translate(vel);
+
+            if (speedX != 0 || speedY != 0)
+            {
+                if (!isSoundPlayed)
+                {
+                    PlayFootstepsSound();
+                    isSoundPlayed = true;
+
+                    Invoke(nameof(ResetAttack), soundDelay);
+                }
+            }
+            animator.SetFloat("Horizontal", vel.x);
+            animator.SetFloat("Vertical", vel.y);
+            animator.SetFloat("Magnitude", vel.magnitude);
+
         }
-        animator.SetFloat("Horizontal", vel.x);
-        animator.SetFloat("Vertical", vel.y);
-        animator.SetFloat("Magnitude", vel.magnitude);
+
+
 
 
     }

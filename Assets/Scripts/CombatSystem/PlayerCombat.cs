@@ -102,11 +102,23 @@ public class PlayerCombat : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Charger"))
         {
-            ReCharging();
+            if (collision.GetComponent<ChargerController>().hasPower == true)
+            {
+                ReCharging();
+                GetComponent<Movement>().onStun = true;
+                collision.GetComponent<ChargerController>().hasPower = false;
+                Invoke(nameof(ResetStun), collision.GetComponent<ChargerController>().chargeStunTimer);
+            }
+            
         }
     }
     void ReCharging()
     {
         currentHealth = health;
+    }
+
+    void ResetStun()
+    {
+        GetComponent<Movement>().onStun = false;
     }
 }
