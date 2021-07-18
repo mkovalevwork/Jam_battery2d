@@ -21,10 +21,26 @@
 		<relationship name="effects">
 			<destination>{d447b7aa-c87d-424c-b71c-139ade5e8ecd}</destination>
 			<destination>{c77353ec-e0f7-4e78-8b6c-eb111a2be1e1}</destination>
+			<destination>{32256804-70ff-435f-961d-3272a9b60b88}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{50790eb1-1221-4c4d-9c9f-6705757802ee}" />
 	<object class="SFXReverbEffect" id="{d447b7aa-c87d-424c-b71c-139ade5e8ecd}">
+		<property name="decayTime">
+			<value>1700</value>
+		</property>
+		<property name="earlyDelay">
+			<value>34</value>
+		</property>
+		<property name="lateDelay">
+			<value>18.5</value>
+		</property>
+		<property name="HFReference">
+			<value>2900</value>
+		</property>
+		<property name="highCut">
+			<value>1900</value>
+		</property>
 		<property name="wetLevel">
 			<value>0</value>
 		</property>
@@ -33,4 +49,15 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{c77353ec-e0f7-4e78-8b6c-eb111a2be1e1}" />
+	<object class="MixerSend" id="{32256804-70ff-435f-961d-3272a9b60b88}">
+		<property name="level">
+			<value>-20.5</value>
+		</property>
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{d3ee12c7-78f1-40fb-ac75-13ecd178bc25}</destination>
+		</relationship>
+	</object>
 </objects>
