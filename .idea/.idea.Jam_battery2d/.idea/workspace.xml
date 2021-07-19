@@ -18,7 +18,6 @@
       <option value="$PROJECT_DIR$/Assets/ActiveController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SkillController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Timer.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/CombatSystem/PlayerCombat.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Scene Management/SceneManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Scene Management/Exit.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Scene Management/PauseManager.cs" />
@@ -30,6 +29,8 @@
       <option value="$PROJECT_DIR$/Assets/ExtinguishingController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/FireController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/ExtinguishingController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CombatSystem/PlayerCombat.cs" />
+      <option value="$PROJECT_DIR$/Assets/ParticleRotation.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vICOx32APKEJS8yrl50HHqISqL" />
@@ -83,6 +84,8 @@
       <workItem from="1626432404639" duration="1951000" />
       <workItem from="1626434946024" duration="4730000" />
       <workItem from="1626622964922" duration="273000" />
+      <workItem from="1626624369903" duration="2298000" />
+      <workItem from="1626665635157" duration="2226000" />
     </task>
     <servers />
   </component>

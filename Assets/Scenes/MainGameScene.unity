@@ -5852,6 +5852,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.3204651, y: 0.6366123}
   m_EdgeRadius: 0
+<<<<<<< Updated upstream
 --- !u!1 &202381026
 GameObject:
   m_ObjectHideFlags: 0
@@ -5893,11 +5894,20 @@ RectTransform:
   m_SizeDelta: {x: 93.5061, y: 15.892502}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &202381028
+=======
+--- !u!1 &137771423 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 487261579, guid: c28355cdd84b27a4bb7d330a3e87bd98, type: 3}
+  m_PrefabInstance: {fileID: 1296519825}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &137771424
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 202381026}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -6031,6 +6041,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 251666092}
   m_CullTransparentMesh: 1
+=======
+  m_GameObject: {fileID: 137771423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ac488c5cd05e764f945cff178d1000c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particleTransform: {fileID: 137771426}
+--- !u!4 &137771426 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 487261580, guid: c28355cdd84b27a4bb7d330a3e87bd98, type: 3}
+  m_PrefabInstance: {fileID: 1296519825}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &167865975 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1801489310691560900, guid: 594f815af2406e647ad012d0a0eb47f1, type: 3}
+  m_PrefabInstance: {fileID: 1998831195}
+  m_PrefabAsset: {fileID: 0}
+>>>>>>> Stashed changes
 --- !u!4 &355227557 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2525983733329316755, guid: 7416707829d270e4f8490560fcd1366e, type: 3}
@@ -6994,6 +7023,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 397752124, guid: c28355cdd84b27a4bb7d330a3e87bd98, type: 3}
+      propertyPath: particle
+      value: 
+      objectReference: {fileID: 137771423}
     - target: {fileID: 397752130, guid: c28355cdd84b27a4bb7d330a3e87bd98, type: 3}
       propertyPath: healthBar
       value: 
@@ -7010,10 +7043,18 @@ PrefabInstance:
       propertyPath: gameOverScreenHandler
       value: 
       objectReference: {fileID: 1264219714}
+<<<<<<< Updated upstream
+=======
+    - target: {fileID: 487261579, guid: c28355cdd84b27a4bb7d330a3e87bd98, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+>>>>>>> Stashed changes
     - target: {fileID: 487261580, guid: c28355cdd84b27a4bb7d330a3e87bd98, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 487261580, guid: c28355cdd84b27a4bb7d330a3e87bd98, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.59
@@ -7026,6 +7067,8 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     - target: {fileID: 1138114416, guid: c28355cdd84b27a4bb7d330a3e87bd98, type: 3}
       propertyPath: m_RootOrder
       value: 1

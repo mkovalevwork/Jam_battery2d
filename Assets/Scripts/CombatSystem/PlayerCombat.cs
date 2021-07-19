@@ -9,6 +9,7 @@ public class PlayerCombat : MonoBehaviour
     public Transform attackPoint;
     public LayerMask enemyLayers;
 
+    [SerializeField] private GameObject particle;
     
     public float attackRange;
     public int attackDamage = 40;
@@ -67,6 +68,7 @@ public class PlayerCombat : MonoBehaviour
             }
         }
 
+<<<<<<< Updated upstream
         healthBar.SetHealth(currentHealth);
         if (currentHealth <= 0)
         {
@@ -87,6 +89,12 @@ public class PlayerCombat : MonoBehaviour
         gameOverScreenHandler.GetComponent<gameOverScreen>().ShowEndScreen();
         animator.SetTrigger("isDead");
         gameObject.GetComponent<Movement>().enabled = false;
+=======
+        if (hasExtinguisher && Input.GetKeyDown(KeyCode.F))
+        {
+            particle.SetActive(true);
+        }
+>>>>>>> Stashed changes
     }
     
     void Attack()
