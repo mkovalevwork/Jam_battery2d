@@ -13319,6 +13319,10 @@ PrefabInstance:
       propertyPath: orthographic size
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 6197272375591519888, guid: c28355cdd84b27a4bb7d330a3e87bd98, type: 3}
+      propertyPath: soundDelay
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6197272375591519889, guid: c28355cdd84b27a4bb7d330a3e87bd98, type: 3}
       propertyPath: m_RootOrder
       value: 12
