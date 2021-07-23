@@ -119,6 +119,9 @@ public class CanEnemy : MonoBehaviour
         //Make sure enemy doesn't move
         agent.SetDestination(transform.position);
 
+        // Play attack sound
+        // PlaySound(attackSoundPath);
+
         //Turn on if needed
         //transform.LookAt(player.transform);
 
@@ -146,7 +149,7 @@ public class CanEnemy : MonoBehaviour
             //attack Animation to add/sound///////////////////////////
 
             // Play attack sound ƒÀﬂ «¿œ”— ¿ –¿ ≈“€
-            //PlaySound(attackSoundPath);
+            PlaySound(attackSoundPath);
 
             //End of attack code
 

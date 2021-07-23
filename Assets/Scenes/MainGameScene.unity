@@ -8932,7 +8932,7 @@ Transform:
   - {fileID: 1857099351}
   - {fileID: 511279863}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &582757767 stripped
 Transform:
@@ -13307,25 +13307,9 @@ PrefabInstance:
       propertyPath: gameOverScreenHandler
       value: 
       objectReference: {fileID: 1264219714}
-    - target: {fileID: 1138114415, guid: c28355cdd84b27a4bb7d330a3e87bd98, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1138114418, guid: c28355cdd84b27a4bb7d330a3e87bd98, type: 3}
-      propertyPath: orthographic
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1138114418, guid: c28355cdd84b27a4bb7d330a3e87bd98, type: 3}
-      propertyPath: orthographic size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6197272375591519888, guid: c28355cdd84b27a4bb7d330a3e87bd98, type: 3}
-      propertyPath: soundDelay
-      value: 0.5
-      objectReference: {fileID: 0}
     - target: {fileID: 6197272375591519889, guid: c28355cdd84b27a4bb7d330a3e87bd98, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 6197272375591519889, guid: c28355cdd84b27a4bb7d330a3e87bd98, type: 3}
       propertyPath: m_LocalPosition.x
