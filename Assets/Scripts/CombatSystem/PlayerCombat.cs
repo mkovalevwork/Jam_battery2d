@@ -21,7 +21,7 @@ public class PlayerCombat : MonoBehaviour
     bool canTakeDamage = true;//for hit from fire
 
     [SerializeField] bool ableToPickUpExtinguisher = false;
-    [SerializeField] bool hasExtinguisher = false;
+    public bool hasExtinguisher = false;
     [SerializeField] private GameObject nearExtinguisher;
     [SerializeField] bool readyToKillFire = false;
 
