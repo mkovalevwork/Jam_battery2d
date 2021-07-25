@@ -144,8 +144,7 @@ public class CanEnemy : MonoBehaviour
         {
             //Attack code here
             Debug.Log("attack done");
-            Instantiate(projectile,transform.position,Quaternion.identity);
-            
+            Instantiate(projectile,transform.position,Quaternion.identity);                       
             //attack Animation to add/sound///////////////////////////
 
             // Play attack sound ƒÀﬂ «¿œ”— ¿ –¿ ≈“€

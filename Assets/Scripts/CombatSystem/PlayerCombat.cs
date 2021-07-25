@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerCombat : MonoBehaviour
@@ -101,10 +100,12 @@ public class PlayerCombat : MonoBehaviour
 
         if (!alreadyAttacked)
         {
+           
             // Damage them
             foreach (var enemy in hitEnemies)
             {
                 enemy.GetComponent<CanEnemy>().TakeDamage(attackDamage);
+                           
             }
 
             // Play attack sound.
@@ -114,6 +115,8 @@ public class PlayerCombat : MonoBehaviour
 
             currentHealth -= attackCoast;
 
+            
+            animator.SetBool("ReadyToAttack", false);
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
         }
         
@@ -123,6 +126,7 @@ public class PlayerCombat : MonoBehaviour
     {
         //timer for attacks
         alreadyAttacked = false;
+        animator.SetBool("ReadyToAttack", true);
     }
 
     public void TakeDamage(int damage)
@@ -156,9 +160,11 @@ public class PlayerCombat : MonoBehaviour
             if (collision.GetComponent<ChargerController>().hasPower == true)
             {
                 FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Environment/Charger/charger");
+                collision.GetComponent<Animator>().SetBool("Using", true);
                 ReCharging();
                 GetComponent<Movement>().onStun = true;
                 collision.GetComponent<ChargerController>().hasPower = false;
+                collision.GetComponent<Animator>().SetBool("IsEmpty", true);
                 Invoke(nameof(ResetStun), collision.GetComponent<ChargerController>().chargeStunTimer);
             }
             
