@@ -94,7 +94,7 @@ public class PlayerCombat : MonoBehaviour
     void Attack()
     {
         // play an attack animation
-        animator.SetTrigger("Attack");
+        
 
         // detect enemys in range of attack
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
@@ -102,7 +102,7 @@ public class PlayerCombat : MonoBehaviour
 
         if (!alreadyAttacked)
         {
-           
+            animator.SetTrigger("Attack");
             // Damage them
             foreach (var enemy in hitEnemies)
             {
@@ -118,8 +118,9 @@ public class PlayerCombat : MonoBehaviour
             currentHealth -= attackCoast;
 
             
-            animator.SetBool("ReadyToAttack", false);
+            
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
+            //animator.SetBool("ReadyToAttack", false);
         }
         
     }
@@ -128,7 +129,7 @@ public class PlayerCombat : MonoBehaviour
     {
         //timer for attacks
         alreadyAttacked = false;
-        animator.SetBool("ReadyToAttack", true);
+        //animator.SetBool("ReadyToAttack", true);
     }
 
     public void TakeDamage(int damage)
