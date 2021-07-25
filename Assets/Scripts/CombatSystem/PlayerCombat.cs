@@ -83,6 +83,9 @@ public class PlayerCombat : MonoBehaviour
     {
         Debug.Log("Start isDeadChanger");
         isDead = true;
+
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/player_death");
+
         gameOverScreenHandler.GetComponent<gameOverScreen>().ShowEndScreen();
         animator.SetTrigger("isDead");
         gameObject.GetComponent<Movement>().enabled = false;
