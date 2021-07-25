@@ -264,7 +264,7 @@ MonoBehaviour:
   Path: Assets/Fmod Sound/Fmod Sound Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637623885102923124
+  lastModified: 637626824910280787
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -680,7 +680,7 @@ MonoBehaviour:
   Path: Assets/Fmod Sound/Fmod Sound Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637626545006261826
+  lastModified: 637628531932850210
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -727,7 +727,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 8513895901345468921}
+  - {fileID: 7819802073118222698}
   MinDistance: 1
   MaxDistance: 20
   Length: 4209
@@ -893,7 +893,7 @@ MonoBehaviour:
   - {fileID: -1721394749303124467}
   StringsBanks:
   - {fileID: -4718392588317824788}
-  stringsBankWriteTime: 637623885102923124
+  stringsBankWriteTime: 637626824910280787
   cacheVersion: 6
 --- !u!114 &60985830013159713
 MonoBehaviour:
