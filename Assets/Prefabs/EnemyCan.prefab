@@ -632,6 +632,7 @@ MonoBehaviour:
   deathSoundPath: event:/SFX/Enemies/Can/can_death
   projectile: {fileID: 0}
   healthBar: {fileID: 178534497}
+  healthBarr: {fileID: 178534495}
   playerInSightRange: 0
   playerInAttackRange: 0
   playerLayer:

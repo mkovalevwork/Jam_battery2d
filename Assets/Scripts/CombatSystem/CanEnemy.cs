@@ -41,6 +41,7 @@ public class CanEnemy : MonoBehaviour
     public GameObject projectile;
 
     public HealthBar healthBar;
+    public GameObject healthBarr;
 
     //Utility
 
@@ -218,6 +219,7 @@ public class CanEnemy : MonoBehaviour
     {
         if (canEnemy)
         {
+            healthBarr.SetActive(false);
             agent.speed = 0;
             GetComponent<CanEnemy>().enabled = false;
             GetComponent<BoxCollider2D>().enabled = false;
