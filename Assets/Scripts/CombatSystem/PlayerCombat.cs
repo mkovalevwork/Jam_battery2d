@@ -93,7 +93,6 @@ public class PlayerCombat : MonoBehaviour
         // play an attack animation
         animator.SetTrigger("Attack");
 
-
         // detect enemys in range of attack
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
@@ -195,7 +194,7 @@ public class PlayerCombat : MonoBehaviour
             {
                 StartCoroutine(WaitForSeconds());
                 currentHealth = (currentHealth - trigger.gameObject.GetComponent<FireObstacleController>().DamageOfFireCollision);
-                FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/Extinguisher/extinguisher_dash");
+                FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/player_damage");
             }
             
         }
@@ -209,6 +208,7 @@ public class PlayerCombat : MonoBehaviour
                     Destroy(trigger.gameObject);
                     readyToKillFire = false;
                     hasExtinguisher = false;
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/Extinguisher/extinguisher_dash");
                 }
                 
             }
