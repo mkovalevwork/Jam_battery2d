@@ -98,7 +98,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.21
-  m_Speed: 1.5
+  m_Speed: 1.2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -128,8 +128,8 @@ MonoBehaviour:
   currentHealth: 0
   damage: 10
   timeBetweenAttacks: 4
-  sightRange: 4
-  attackRange: 3.5
+  sightRange: 3.7
+  attackRange: 3.2
   detectSoundPath: event:/SFX/Enemies/Toaster/toaster_detect
   damageSoundPath: event:/SFX/Enemies/Toaster/toaster_damage
   attackSoundPath: event:/SFX/Enemies/Toaster/toaster_attack

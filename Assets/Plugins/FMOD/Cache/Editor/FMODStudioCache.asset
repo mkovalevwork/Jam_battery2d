@@ -264,7 +264,7 @@ MonoBehaviour:
   Path: Assets/Fmod Sound/Fmod Sound Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637623885102923124
+  lastModified: 637624758742366188
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -479,6 +479,26 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &-3574679161176785729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/extinguisher_shot/extinguisher_charge
+  m_EditorClassIdentifier: 
+  Name: extinguisher_charge
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-3488734287464144669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -660,7 +680,7 @@ MonoBehaviour:
   Path: Assets/Fmod Sound/Fmod Sound Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637626545006261826
+  lastModified: 637628294878695374
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -707,7 +727,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 1050920222100320777}
+  - {fileID: -3574679161176785729}
   MinDistance: 1
   MaxDistance: 20
   Length: 4209
@@ -873,7 +893,7 @@ MonoBehaviour:
   - {fileID: -1721394749303124467}
   StringsBanks:
   - {fileID: -4718392588317824788}
-  stringsBankWriteTime: 637623885102923124
+  stringsBankWriteTime: 637624758742366188
   cacheVersion: 6
 --- !u!114 &60985830013159713
 MonoBehaviour:
