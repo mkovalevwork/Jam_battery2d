@@ -141,3 +141,4 @@ Received Import Request.
   path: Assets/Scripts/CombatSystem/RotatorTrigger.cs
   artifactKey: Guid(24759cef47c817e4bb53fa9de3c8524b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/CombatSystem/RotatorTrigger.cs using Guid(24759cef47c817e4bb53fa9de3c8524b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6e3016f9c4013a9fc4da5d75956a4a') in 0.033778 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
