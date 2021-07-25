@@ -207,6 +207,7 @@ public class CanEnemy : MonoBehaviour
 
         if (currentHealth <= 0)
         {
+            animator.SetBool("IsDead", true);
             Invoke(nameof(DestroyEnemy), 0.5f);
             //death Animation to add/sound///////////////////////////
             PlaySound(deathSoundPath);
@@ -215,7 +216,19 @@ public class CanEnemy : MonoBehaviour
 
     void DestroyEnemy()
     {
-        Destroy(gameObject);
+        if (canEnemy)
+        {
+            agent.speed = 0;
+            GetComponent<CanEnemy>().enabled = false;
+            GetComponent<BoxCollider2D>().enabled = false;
+        }
+
+        if (toasterEnemy)
+        {
+            Destroy(gameObject);
+        }
+        
+
 
     }
 
