@@ -13,7 +13,7 @@ public class PlayerCombat : MonoBehaviour
     public int attackDamage = 40;
     public int attackCoast;
     public int health;
-    public float timeBetweenAttacks;
+    public float timeBetweenAttacks;   
     [SerializeField] private int currentHealth;
     bool alreadyAttacked; //for cooldown damage to enemys
 
